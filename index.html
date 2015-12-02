@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Projects</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gleb Bahmutov" />
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Dr. Gleb Bahmutov, PhD</h1>
+        <h2>JavaScript ninja, image processing expert, software quality fanatic</h2>
+
+        <a href="mailto:gleb.bahmutov@gmail.com">email</a>
+        <a href="http://glebbahmutov.com/blog/" title="Better world by better software">blog</a>
+        <a href="https://github.com/bahmutov" title="My projects at github">github</a>
+        <a href="https://twitter.com/bahmutov" title="Twitter @bahmutov">@bahmutov</a>
+        <a href="javascript:void(0)" title="Search my blog posts and projects" id="search">search</a>
+        <a href="https://slides.com/bahmutov" title="Slide decks from my presentations">slides</a>
+        <a href="https://www.google.com/calendar/embed?src=aGU2bWlpcGllbXM0N3QzNWNjcDRlZXRxcXNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" title="My speaking / attending conferences calendar">conferences</a>
+        <p><a href="videos.html">videos</a> from my conference talks. For example, this is me speaking at ng-conf 2015 about <a href="http://youtu.be/lceLw8ROUP8?list=PLOETEcp3DkCoNnlhE-7fovYvqwVPrRiY7" title="and trying to be funny">running digest cycle in web worker</a></p>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <div id="projects-list">
+          <input type="text" v-model="searchText" placeholder="Project name, tag, text ..." id="project-search-text">
+          <ul>
+            <li v-for="project in projects | filterBy searchText">{{{ project.html }}}</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <script src="dist/build.js"></script>
+  </body>
+</html>
