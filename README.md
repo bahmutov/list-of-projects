@@ -5,7 +5,6 @@
 [![NPM][list-of-projects-icon] ][list-of-projects-url]
 
 [![Build status][list-of-projects-ci-image] ][list-of-projects-ci-url]
-[![semantic-release][semantic-image] ][semantic-url]
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
 ### Small print
@@ -56,5 +55,3 @@ OTHER DEALINGS IN THE SOFTWARE.
 [list-of-projects-dependencies-url]: https://david-dm.org/bahmutov/list-of-projects
 [list-of-projects-devdependencies-image]: https://david-dm.org/bahmutov/list-of-projects/dev-status.png
 [list-of-projects-devdependencies-url]: https://david-dm.org/bahmutov/list-of-projects#info=devDependencies
-[semantic-image]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
-[semantic-url]: https://github.com/semantic-release/semantic-release
