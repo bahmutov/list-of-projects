@@ -1,5 +1,7 @@
 var Vue = require('vue')
 
+/* global $ */
+
 Vue.transition('fade', {
   css: false,
   enter: function (el, done) {
@@ -21,7 +23,7 @@ Vue.transition('fade', {
   }
 })
 
-new Vue({
+new Vue({ // eslint-disable-line
   el: '#projects-list',
   data: {
     searchText: '',
@@ -50,12 +52,12 @@ new Vue({
     }]
   },
   methods: {
-    sortBy: function sortBy(key) {
+    sortBy: function sortBy (key) {
       if (this.sortKey === key) {
-        this.reversedSort = this.reversedSort * -1;
+        this.reversedSort = this.reversedSort * -1
       } else {
-        this.sortKey = key;
-        this.reversedSort = 1;
+        this.sortKey = key
+        this.reversedSort = 1
       }
     }
   }

@@ -6,6 +6,7 @@
 
 [![Build status][list-of-projects-ci-image] ][list-of-projects-ci-url]
 [![semantic-release][semantic-image] ][semantic-url]
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
 ### Small print
 

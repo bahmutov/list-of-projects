@@ -11,6 +11,7 @@
     "babel-loader": "^5.3.2",
     "babel-runtime": "^5.8.25",
     "css-loader": "^0.21.0",
+    "standard": "5.4.1",
     "style-loader": "^0.13.0",
     "template-html-loader": "0.0.3",
     "vue-hot-reload-api": "^1.2.0",
@@ -20,8 +21,9 @@
     "webpack-dev-server": "^1.12.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --inline --hot --quiet"
+    "test": "npm run lint",
+    "dev": "webpack-dev-server --inline --hot --quiet",
+    "lint": "standard"
   },
   "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
   "license": "MIT",
