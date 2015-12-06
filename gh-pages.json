@@ -1,0 +1,12 @@
+{
+  "gh-pages": {
+    "options": {
+      "base": "web"
+    },
+    "src": [
+      "dist",
+      "index.html",
+      "stylesheets"
+    ]
+  }
+}

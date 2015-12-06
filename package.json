@@ -12,6 +12,9 @@
     "cross-env": "1.0.5",
     "css-loader": "^0.21.0",
     "git-issues": "1.2.0",
+    "grunt": "0.4.5",
+    "grunt-gh-pages": "1.0.0",
+    "grunty": "0.2.0",
     "standard": "5.4.1",
     "style-loader": "^0.13.0",
     "template-html-loader": "0.0.3",
@@ -26,7 +29,8 @@
     "dev": "webpack-dev-server --inline --hot --quiet",
     "issues": "git-issues",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
-    "lint": "standard"
+    "lint": "standard",
+    "deploy": "grunty grunt-gh-pages gh-pages gh-pages.json"
   },
   "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
   "license": "MIT",
