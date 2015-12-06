@@ -32,8 +32,9 @@
     <div class="container">
       <section id="main_content">
         <div id="projects-list">
-          <input type="text" v-model="searchText" placeholder="Project name, tag, text ..." id="project-search-text">
-          <ul>
+          <input type="text" autofocus v-model="searchText" placeholder="Project name, tag, text ..." id="project-search-text">
+
+          <ul id="projects">
             <li v-for="project in projects | filterBy searchText"
               transition="fade">{{{ project.html }}}</li>
           </ul>

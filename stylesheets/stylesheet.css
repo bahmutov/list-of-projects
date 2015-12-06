@@ -92,11 +92,26 @@ a.gs-title {
 */
 #project-search-text {
   width: 50%;
-  left: 25%;
-  position: relative;
-  border-radius: 6px;
+  min-width: 100px;
+  max-width: 500px;
+  right: 0;
+  position: statis;
+  float: right;
+  /* border-radius: 6px; */
   padding: 5px 10px 3px;
   font-size: large;
+  background-color: inherit;
+  border: none;
+  border-bottom: 2px solid greenyellow;
+  color: white;
+}
+
+#project-search-text:focus {
+  outline: none;
+}
+
+#projects {
+  min-height: 5px;
 }
 
 .container {

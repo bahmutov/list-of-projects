@@ -1,7 +1,7 @@
 {
-  "name": "projects-list",
+  "name": "list-of-projects",
   "version": "1.0.0",
-  "description": "Personal projects web app",
+  "description": "Personal NPM and GitHub projects web app",
   "main": "index.js",
   "dependencies": {
     "vue": "1.0.4"
@@ -24,5 +24,6 @@
     "dev": "webpack-dev-server --inline --hot --quiet"
   },
   "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "private": true
 }
