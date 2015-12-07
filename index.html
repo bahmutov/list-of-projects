@@ -34,7 +34,9 @@
     <div class="container">
       <section id="main_content">
         <div id="projects-list">
-          <input type="text" autofocus v-model="searchText" placeholder="Project name, tag, text ..." id="project-search-text">
+          <input type="text" autofocus v-model="searchText"
+            placeholder="Project name, tag, text ..." id="project-search-text"
+            debounce="300">
 
           <ul id="projects">
             <li v-for="project in projects | filterBy searchText"
