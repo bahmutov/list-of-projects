@@ -6,7 +6,7 @@
     "src": [
       "dist/*.js",
       "index.html",
-      "stylesheets/*.css",
+      "styles/*.css",
       "images/*"
     ]
   }
