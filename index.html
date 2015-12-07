@@ -40,7 +40,7 @@
 
           <ul id="projects">
             <li v-for="project in projects | filterBy searchText"
-              transition="fade">{{{ project.html }}}</li>
+              transition="fade" v-html="project.html" />
           </ul>
         </div>
       </section>
