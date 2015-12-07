@@ -19,8 +19,6 @@
     "style-loader": "^0.13.0",
     "template-html-loader": "0.0.3",
     "vue-hot-reload-api": "^1.2.0",
-    "vue-html-loader": "^1.0.0",
-    "vue-loader": "^6.0.0",
     "webpack": "^1.12.2",
     "webpack-dev-server": "^1.12.0"
   },
@@ -28,7 +26,7 @@
     "test": "npm run lint",
     "dev": "webpack-dev-server --inline --hot --quiet",
     "issues": "git-issues",
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "build": "cross-env NODE_ENV=production webpack --progress --verbose",
     "lint": "standard src webpack.config.js",
     "deploy": "npm run build && grunty grunt-gh-pages gh-pages gh-pages.json"
   },
