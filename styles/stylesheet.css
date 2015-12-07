@@ -90,6 +90,8 @@ a.gs-title {
   margin: 0 auto;
 }
 */
+
+/* list of projects search */
 #project-search-text {
   width: 50%;
   min-width: 100px;
@@ -97,12 +99,12 @@ a.gs-title {
   right: 0;
   position: statis;
   float: right;
-  /* border-radius: 6px; */
+  border-radius: 0;
   padding: 5px 10px 3px;
   font-size: large;
   background-color: inherit;
   border: none;
-  border-bottom: 2px solid greenyellow;
+  border-bottom: 2px solid #b5e853;
   color: white;
 }
 
