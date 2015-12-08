@@ -60,22 +60,24 @@
         <p>
         <img src="https://raw.githubusercontent.com/bahmutov/bahmutov.github.io/master/images/blog-slides-feedback.png">
         </p>
-
-        <p>In my spare time I built some cool stuff; see the links below. I try to keep modules small because I <a href="https://github.com/sindresorhus/ama/issues/10">agree with Sindre Sorhus</a>.</p>
-
-        <section id="main_content">
-          <div id="projects-list">
-            <input type="text" autofocus v-model="searchText"
-              placeholder="Project name, tag, text ..." id="project-search-text"
-              debounce="300">
-
-            <ul id="projects">
-              <li v-for="project in projects | filterBy searchText"
-                transition="fade" v-html="project.html" />
-            </ul>
-          </div>
-        </section>
       </div>
+    </div>
+    <div class="container">
+      <h3 id="today">Projects</h3>
+      <p>In my spare time I built some cool stuff; see the links below. I try to keep modules small because I <a href="https://github.com/sindresorhus/ama/issues/10">agree with Sindre Sorhus</a>.</p>
+
+      <section id="main_content">
+        <div id="projects-list">
+          <input type="text" autofocus v-model="searchText"
+            placeholder="Project name, tag, text ..." id="project-search-text"
+            debounce="300">
+
+          <ul id="projects">
+            <li v-for="project in projects | filterBy searchText"
+              transition="fade" v-html="project.html" />
+          </ul>
+        </div>
+      </section>
     </div>
 
     <!-- yesterday -->
