@@ -23,6 +23,10 @@ const projects = [{
   name: 'read on paper',
   html: `<a href="http://readonpaper.com/">read on paper</a> is the simplest way to send readable article from PC to your tablet for easier reading. It saves your eyes and trees!`
 },
+{
+  name: 'json-package',
+  html: `<a href="https://github.com/bahmutov/json-package">json-package</a> is tiny utility for quickly looking up properties from a JSON file.`
+}
   `Command line <a href="https://github.com/bahmutov/boggle">Boggle</a> solver.`,
   `<a href="https://github.com/bahmutov/d3-helpers">d3-helpers</a> are tiny functional utilities mostly to simplify
   callbacks for D3. Also could be used to chain method calls, property access and function applications anywhere.`,
