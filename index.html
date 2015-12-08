@@ -7,26 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Gleb Bahmutov" />
     <meta http-equiv="Content-Security-Policy"
-      content="script-src https://code.jquery.com 'self'; style-src 'self';">
+      content="script-src
+        https://code.jquery.com
+        https://www.google-analytics.com
+        'self';
+        style-src 'self';">
 
     <link rel="stylesheet" type="text/css" href="styles/stylesheet.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="styles/pygment_trac.css" media="screen" />
 
+    <script src="dist/custom-search-redirect.js"></script>
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-
-    <script>
-      (function redirectSearch() {
-        // redirect search queries to custom search endpoint
-        function hasSearch() {
-          return document.location.search.indexOf('q=') !== -1;
-        }
-        if (hasSearch()) {
-          console.log('has search', document.location.search);
-          var customSearchUrl = 'https://www.google.com/cse/publicurl?cx=017313398942136460773:ey1oxxkrkve&';
-          document.location = customSearchUrl + document.location.search.substr(1);
-        }
-      }());
-    </script>
   </head>
   <body>
     <header>
@@ -38,111 +29,91 @@
         <a href="http://glebbahmutov.com/blog/" title="Better world by better software">blog</a>
         <a href="https://github.com/bahmutov" title="My projects at github">github</a>
         <a href="https://twitter.com/bahmutov" title="Twitter @bahmutov">@bahmutov</a>
+        <!--
         <a href="javascript:void(0)" title="Search my blog posts and projects" id="search">search</a>
+        -->
         <a href="https://slides.com/bahmutov" title="Slide decks from my presentations">slides</a>
         <a href="https://www.google.com/calendar/embed?src=aGU2bWlpcGllbXM0N3QzNWNjcDRlZXRxcXNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" title="My speaking / attending conferences calendar">conferences</a>
-        <p><a href="videos.html">videos</a> from my conference talks. For example, this is me speaking at ng-conf 2015 about <a href="http://youtu.be/lceLw8ROUP8?list=PLOETEcp3DkCoNnlhE-7fovYvqwVPrRiY7" title="and trying to be funny">running digest cycle in web worker</a></p>
+        <a href="videos.html" title="Videos from my talks">videos</a>
       </div>
     </header>
 
+    <!-- custom search -->
+    <!-- disable unless it can work with CSP -->
+    <!--
+    <div class="container">
+      <gcse:search></gcse:search>
+    </div>
+    -->
+
     <!-- today -->
     <div class="container">
-      <script>
-        (function() {
-          var cx = '017313398942136460773:ey1oxxkrkve';
-          var gcse = document.createElement('script');
-          gcse.type = 'text/javascript';
-          gcse.async = true;
-          gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-              '//www.google.com/cse/cse.js?cx=' + cx;
-          var s = document.getElementsByTagName('script')[0];
-          s.parentNode.insertBefore(gcse, s);
+      <div id="after-main-content">
+        <h3 id="today">Today</h3>
 
-        })();
+        <p>I am a software engineer interested in front and back end development,
+          especially in using JavaScript (and its flavors) across the entire stack.
+          I work at <a href="http://www.kensho.com/">Kensho</a>, making the world a better place.
+          I try to <a href="http://glebbahmutov.com/blog/">blog</a>
+          on topics related to software craft. This is what people say about my blog posts and presentations:
+        </p>
+        <p>
+        <img src="https://raw.githubusercontent.com/bahmutov/bahmutov.github.io/master/images/blog-slides-feedback.png">
+        </p>
 
-        document.getElementById('search').addEventListener('click', function () {
-          document.getElementById('___gcse_0').style.display = 'block';
-        });
-      </script>
-      <gcse:search></gcse:search>
-  </div>
+        <p>In my spare time I built some cool stuff; see the links below. I try to keep modules small because I <a href="https://github.com/sindresorhus/ama/issues/10">agree with Sindre Sorhus</a>.</p>
 
-  <!-- today -->
-  <div class="container">
-    <div id="after-main-content">
-      <h3 id="today">Today</h3>
+        <section id="main_content">
+          <div id="projects-list">
+            <input type="text" autofocus v-model="searchText"
+              placeholder="Project name, tag, text ..." id="project-search-text"
+              debounce="300">
 
-      <p>I am a software engineer interested in front and back end development,
-        especially in using JavaScript (and its flavors) across the entire stack.
-        I work at <a href="http://www.kensho.com/">Kensho</a>, making the world a better place.
-        I try to <a href="http://glebbahmutov.com/blog/">blog</a>
-        on topics related to software craft. This is what people say about my blog posts and presentations:
-      </p>
-      <p>
-      <img src="https://raw.githubusercontent.com/bahmutov/bahmutov.github.io/master/images/blog-slides-feedback.png">
-      </p>
-
-      <p>In my spare time I built some cool stuff; see the links below. I try to keep modules small because I <a href="https://github.com/sindresorhus/ama/issues/10">agree with Sindre Sorhus</a>.</p>
-
-      <section id="main_content">
-        <div id="projects-list">
-          <input type="text" autofocus v-model="searchText"
-            placeholder="Project name, tag, text ..." id="project-search-text"
-            debounce="300">
-
-          <ul id="projects">
-            <li v-for="project in projects | filterBy searchText"
-              transition="fade" v-html="project.html" />
-          </ul>
-        </div>
-      </section>
+            <ul id="projects">
+              <li v-for="project in projects | filterBy searchText"
+                transition="fade" v-html="project.html" />
+            </ul>
+          </div>
+        </section>
+      </div>
     </div>
-  </div>
 
-  <!-- yesterday -->
-  <div class="container">
-    <h3 id="yesterday">Yesterday</h3>
+    <!-- yesterday -->
+    <div class="container">
+      <h3 id="yesterday">Yesterday</h3>
 
-    <p>I worked at <a href="http://www.utest.com/">uTest</a> for half a year, mostly bringing together and updating various front end technology stacks.</p>
+      <p>I worked at <a href="http://www.utest.com/">uTest</a> for half a year, mostly bringing together and updating various front end technology stacks.</p>
 
-    <p>I worked for a year at <a href="http://www.mathworks.com/">MathWorks</a>, helping to bring the power of MATLAB to the browser.</p>
+      <p>I worked for a year at <a href="http://www.mathworks.com/">MathWorks</a>, helping to bring the power of MATLAB to the browser.</p>
 
-    <p>Earlier I spent four years as a researcher at <a href="http://www.everyscape.com/">EveryScape</a>, writing panorama stitching and 3D modeling software. Before that I worked calibrating 3D laser scanners and developing white light scanners. Even before that I wrote distributed database access software that worked across Objective-C, C and Java systems.</p>
+      <p>Earlier I spent four years as a researcher at <a href="http://www.everyscape.com/">EveryScape</a>, writing panorama stitching and 3D modeling software. Before that I worked calibrating 3D laser scanners and developing white light scanners. Even before that I wrote distributed database access software that worked across Objective-C, C and Java systems.</p>
 
-    <h3 id="talks">Talks</h3>
+      <h3 id="talks">Talks</h3>
 
-    <p>I am a member of multiple meetups in the Boston area and spoke about
-    <a href="https://github.com/bahmutov/talks/blob/master/grunt.md">grunt</a>,
-    <a href="https://github.com/bahmutov/talks/blob/master/coverage-and-tests.md">code coverage and testing</a>,
-    <a href="https://github.com/bahmutov/talks/blob/master/risk-map.md">technical debt visualization</a>,
-    <a href="https://github.com/bahmutov/talks/blob/master/dependencies-best-practices-node.md">best practices for handling dependencies</a>,
-    <a href="https://github.com/bahmutov/talks/blob/master/agile-software-quality.md">agile software quality</a>,
-    <a href="http://slides.com/bahmutov/angularjs-performance/">angular performance</a>,
-    <a href="http://slides.com/bahmutov/code-snippets/">Chrome code snippets</a> and many other topics.
-    You can find most of my slide decks at <a href="https://slides.com/bahmutov" title="Slide decks from my presentations">slides.com/bahmutov</a>.
-    </p>
+      <p>I am a member of multiple meetups in the Boston area and spoke about
+      <a href="https://github.com/bahmutov/talks/blob/master/grunt.md">grunt</a>,
+      <a href="https://github.com/bahmutov/talks/blob/master/coverage-and-tests.md">code coverage and testing</a>,
+      <a href="https://github.com/bahmutov/talks/blob/master/risk-map.md">technical debt visualization</a>,
+      <a href="https://github.com/bahmutov/talks/blob/master/dependencies-best-practices-node.md">best practices for handling dependencies</a>,
+      <a href="https://github.com/bahmutov/talks/blob/master/agile-software-quality.md">agile software quality</a>,
+      <a href="http://slides.com/bahmutov/angularjs-performance/">angular performance</a>,
+      <a href="http://slides.com/bahmutov/code-snippets/">Chrome code snippets</a> and many other topics.
+      You can find most of my slide decks at <a href="https://slides.com/bahmutov" title="Slide decks from my presentations">slides.com/bahmutov</a>.
+      </p>
 
-    <h3 id="education">Education</h3>
+      <h3 id="education">Education</h3>
 
-    <p>Doctorate from Purdue University (West Lafayette, Indiana) working with Dr. Voice Popescu (adviser) and Dr. Mihai Mudure (fellow candidate), developing a novel scanning sensor. We were building 3D models of rooms in real time using a video camera and a bunch of lasers. If you were afraid of lasers, you could be anywhere else in the world, observing the results over the internet, as our system was smart enough to incrementally update the 3D model and send the results in real time.</p>
+      <p>Doctorate from Purdue University (West Lafayette, Indiana) working with Dr. Voice Popescu (adviser) and Dr. Mihai Mudure (fellow candidate), developing a novel scanning sensor. We were building 3D models of rooms in real time using a video camera and a bunch of lasers. If you were afraid of lasers, you could be anywhere else in the world, observing the results over the internet, as our system was smart enough to incrementally update the 3D model and send the results in real time.</p>
 
-    <h3>Small print</h3>
+      <h3>Small print</h3>
 
-    <p>Some of my github repositories are not up to date, while I am working on cleaning up the code.</p>
-  </div>
-</div>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-41650865-2', 'glebbahmutov.com');
-  ga('send', 'pageview');
-</script>
+      <p>Some of my github repositories are not up to date, while I am working on cleaning up the code.</p>
     </div>
 
     <script src="dist/build.js"></script>
+    <script src="dist/ga.js"></script>
+    <!--
+    <script src="dist/custom-search.js"></script>
+    -->
   </body>
 </html>
