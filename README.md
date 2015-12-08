@@ -5,6 +5,26 @@
 [![Build status][list-of-projects-ci-image] ][list-of-projects-ci-url]
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
+This is a list of my personal projects and the source for my main personal
+website [glebbahmutov.com](http://glebbahmutov.com/).
+
+## Development
+
+    npm install
+    npm run dev
+
+Starts local webserver.
+
+To deploy a minified build to [glebbahmutov.com/list-of-projects/](http://glebbahmutov.com/list-of-projects/)
+use command
+
+    npm run deploy
+
+The deploy takes settings from the [gh-pages.json](gh-pages.json) file.
+
+## Copying tested web application to the main repo `bahmutov.github.io` - clone the target repo
+and copy files listed in `gh-pages.json` (typically "dist", "images", "styles" and "index.html") there.
+
 ### Small print
 
 Author: Gleb Bahmutov &copy; 2015
