@@ -46,7 +46,7 @@ const projects = [{
     Makes keeping dependencies up to date over <strong>all</strong> your projects a breeze.`,
   `<a href="https://github.com/bahmutov/dont-break">dont-break</a> allows to check if your library would break projects that depend on it if you publish it as it is now.`,
   `A homebrew unit testing framework <a href="https://github.com/bahmutov/gt">gt</a> that follows QUnit syntax but adds better async testing and code coverage (via <a href="https://github.com/gotwarlost/istanbul">istanbul</a>).
-    There is a<a href="https://github.com/bahmutov/grunt-gt">grunt-gt</a> to run GT as a grunt task.`,
+    There is a <a href="https://github.com/bahmutov/grunt-gt">grunt-gt</a> to run GT as a grunt task.`,
   `There is static source complexity tool <a href="https://github.com/bahmutov/js-complexity-viz">jsc</a> that keeps my code nice and understandable`,
   `I wrote <a href="https://github.com/bahmutov/lasso">lasso</a> to instrument widget test pages on the fly, giving you insight into the code covered for by the unit tests. There is no setup necessary, and check out the list of unit test frameworks in the examples folder: everything just works!`,
   `When the number of tests grows, and you cannot wait to run them all on each code change, take a look at <a href="https://github.com/bahmutov/untested">untested</a>. It stores test point mappings for each JavaScript source file (generated from code coverage reported by <em>gt</em> and <em>lasso</em>), and returns which unit tests should be run for all changed files. Test your changes all the time very quickly!`,
