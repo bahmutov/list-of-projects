@@ -2,8 +2,6 @@
 
 > Personal NPM and GitHub projects web app
 
-[![NPM][list-of-projects-icon] ][list-of-projects-url]
-
 [![Build status][list-of-projects-ci-image] ][list-of-projects-ci-url]
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
@@ -47,8 +45,6 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
-[list-of-projects-icon]: https://nodei.co/npm/list-of-projects.png?downloads=true
-[list-of-projects-url]: https://npmjs.org/package/list-of-projects
 [list-of-projects-ci-image]: https://travis-ci.org/bahmutov/list-of-projects.png?branch=master
 [list-of-projects-ci-url]: https://travis-ci.org/bahmutov/list-of-projects
 [list-of-projects-dependencies-image]: https://david-dm.org/bahmutov/list-of-projects.png
