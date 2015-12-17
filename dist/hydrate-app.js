@@ -201,3 +201,5 @@ function getBottle (selectId, verbose, verboseUi) {
   bottle.open()
   window.bottle = bottle
 }())
+
+;
