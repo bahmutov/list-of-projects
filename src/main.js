@@ -3,7 +3,7 @@
 const projects = require('./projects')
 const Vue = require('vue')
 
-/* global $ */
+/* global $, bottle */
 
 Vue.transition('fade', {
   css: false,
@@ -31,6 +31,16 @@ new Vue({ // eslint-disable-line
   data: {
     searchText: '',
     projects: projects
+  },
+  ready: function () {
+    bottle.drink()
+    bottle.refill(true)
+
+    // refocus on search text field
+    // because hydrating HTML kills the autofocus
+    setTimeout(function () {
+      document.getElementById('project-search-text').focus()
+    }, 0)
   },
   methods: {
     sortBy: function sortBy (key) {

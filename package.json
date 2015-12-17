@@ -3,6 +3,7 @@
   "description": "Personal NPM and GitHub projects web app",
   "main": "index.js",
   "dependencies": {
+    "hydrate-app": "1.4.1",
     "vue": "1.0.10-csp"
   },
   "devDependencies": {
