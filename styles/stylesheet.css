@@ -1,3 +1,11 @@
+/* for app hydration - hides the initial app template
+   before it is ready
+*/
+.hidden {
+  visibility: hidden;
+  display: none;
+}
+
 body {
   margin: 0;
   padding: 0;
