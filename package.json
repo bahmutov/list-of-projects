@@ -16,6 +16,7 @@
     "grunt": "0.4.5",
     "grunt-gh-pages": "1.0.0",
     "grunty": "0.2.0",
+    "installcat": "0.2.0",
     "standard": "5.4.1",
     "style-loader": "^0.13.0",
     "template-html-loader": "0.0.3",
@@ -26,6 +27,7 @@
   "scripts": {
     "test": "npm run lint",
     "dev": "webpack-dev-server --inline --hot --quiet",
+    "postinstall": "installcat",
     "issues": "git-issues",
     "build": "cross-env NODE_ENV=production webpack --progress --verbose",
     "lint": "standard src webpack.config.js",
@@ -37,6 +39,11 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/bahmutov/list-of-projects.git"
+  },
+  "installcat": {
+    "dist/hydrate-app.js": {
+      "hydrate-app": "hydrate-app.js"
+    }
   },
   "keywords": [
     "web",

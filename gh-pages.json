@@ -7,7 +7,6 @@
       "dist/*.js",
       "index.html",
       "styles/*.css",
-      "node_modules/hydrate-app/hydrate-app.js",
       "images/*"
     ]
   }
