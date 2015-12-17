@@ -22,8 +22,13 @@ use command
 
 The deploy takes settings from the [gh-pages.json](gh-pages.json) file.
 
-## Copying tested web application to the main repo `bahmutov.github.io` - clone the target repo
-and copy files listed in `gh-pages.json` (typically "dist", "images", "styles" and "index.html") there.
+## Copying tested web application to the main repo 
+
+My main repo is `bahmutov.github.io` - to update it
+
+* clone the target repo
+* copy files listed in `gh-pages.json` (typically "dist", "images", "styles" and "index.html")
+  there.
 
 ### Small print
 
