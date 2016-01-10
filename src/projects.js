@@ -298,7 +298,13 @@ inside ServiceWorker.`,
   `<a href="https://github.com/bahmutov/todomvc-model">todomvc-model</a> is the model that keeps
   todo items and responds to outside events. Functions as both M and C in the MVC "Todo" apps.`,
   `<a href="https://github.com/bahmutov/todomvc-express">todomvc-express</a> is a server-side TodoMVC implementation using Express.
-  Works just fine with browser JavaScript disabled, see <a href="https://todomvc-express.herokuapp.com/">demo</a>.`
+  Works just fine with browser JavaScript disabled, see <a href="https://todomvc-express.herokuapp.com/">demo</a>.`,
+  `<a href="https://github.com/bahmutov/learn-angular-directives">learn-angular-directives</a> is a
+  self-directed study of Angular 1 built-in directives, including a homework assignment.`,
+  `<a href="https://github.com/bahmutov/copi">copi</a> is a completely offline NPM installer command that tries
+  to find requested modules on disk among your projects.`,
+  `<a href="https://github.com/bahmutov/ci-publish">ci-publish</a> is a poor man's semantic release tool.
+  Useful for automatic intelligent NPM publishing from CI environments.`
 ].map((item) => {
   if (typeof item === 'string') {
     return {
