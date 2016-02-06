@@ -312,6 +312,7 @@ inside ServiceWorker.`,
   `<a href="https://github.com/bahmutov/ci-publish">ci-publish</a> is a poor man's semantic release tool.
   Useful for automatic intelligent NPM publishing from CI environments.`,
   `<a href="https://github.com/bahmutov/taskify">taskify</a> for converting Node-style callback function into a Task returning function.`,
+  `<a href="https://github.com/bahmutov/task-task">task-task</a> is a postfix combinator for task objects.`,
   `<a href="https://github.com/bahmutov/node-rx-cycle">node-rx-cycle</a> is a good example for understanding Reactive programming on the server, in Cycle.js style.`,
   `<a href="https://github.com/bahmutov/es-features-to-babel-plugins">es-features-to-babel-plugins</a> is a map between
   <a href="https://github.com/getify/es-feature-tests">detected ES6 features</a> and
