@@ -12,6 +12,12 @@ const projects = [
   to run unit tests, execute any user commands or validate the commit message according to a template.
   There are wizards for <a href="https://github.com/bahmutov/simple-commit-message">simple</a>
   or <a href="https://github.com/bahmutov/conventional-commit-message">conventional</a> commit message formats.`,
+  `<a href="https://github.com/bahmutov/compiled">compiled</a> is the simplest way to write ES6 code today and
+  let the Node clients <a href="https://glebbahmutov.com/blog/javascript-needs-compile-step/">compile on install</a>.`,
+  `Alternatively, you can use <a href="https://github.com/bahmutov/pre-compiled">pre-compiled</a> to build bundles for different clients
+  and just <a href="https://glebbahmutov.com/blog/precompiled-javascript/">let them pick what they support</a>.`,
+  `<a href="https://github.com/bahmutov/javascript-journey">javascript-journey</a> is a repo with examples for my popular
+  presentation <a href="https://glebbahmutov.com/blog/journey-from-procedural-to-reactive-javascript-with-stops/">Journey from procedural to reactive JavaScript with stops</a>.`,
   `<a href="https://github.com/bahmutov/caches-storage">caches-storage</a> is like async storage built
 on top of <a href="https://developer.mozilla.org/en-US/docs/Web/API/Cache">Cache</a> API, for use
 inside ServiceWorker.`,
@@ -304,7 +310,12 @@ inside ServiceWorker.`,
   `<a href="https://github.com/bahmutov/copi">copi</a> is a completely offline NPM installer command that tries
   to find requested modules on disk among your projects.`,
   `<a href="https://github.com/bahmutov/ci-publish">ci-publish</a> is a poor man's semantic release tool.
-  Useful for automatic intelligent NPM publishing from CI environments.`
+  Useful for automatic intelligent NPM publishing from CI environments.`,
+  `<a href="https://github.com/bahmutov/taskify">taskify</a> for converting Node-style callback function into a Task returning function.`,
+  `<a href="https://github.com/bahmutov/node-rx-cycle">node-rx-cycle</a> is a good example for understanding Reactive programming on the server, in Cycle.js style.`,
+  `<a href="https://github.com/bahmutov/es-features-to-babel-plugins">es-features-to-babel-plugins</a> is a map between
+  <a href="https://github.com/getify/es-feature-tests">detected ES6 features</a> and
+  <a href="https://babeljs.io/docs/plugins/">Babel</a> transpiler plugins.`
 ].map((item) => {
   if (typeof item === 'string') {
     return {
