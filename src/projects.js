@@ -21,6 +21,10 @@ const projects = [
   `<a href="https://github.com/bahmutov/caches-storage">caches-storage</a> is like async storage built
 on top of <a href="https://developer.mozilla.org/en-US/docs/Web/API/Cache">Cache</a> API, for use
 inside ServiceWorker.`,
+  `<a href="https://github.com/bahmutov/as-a">as-a</a>
+  runs a given command with additional environment settings for simple local development.`,
+  `<a href="https://github.com/bahmutov/all-nvm">all-nvm</a> - run any NPM command (including install)
+  in all versions of Node managed by NVM`,
   {
     name: '2048 5x5',
     href: 'http://glebbahmutov.com/2048/',
@@ -316,7 +320,19 @@ inside ServiceWorker.`,
   `<a href="https://github.com/bahmutov/node-rx-cycle">node-rx-cycle</a> is a good example for understanding Reactive programming on the server, in Cycle.js style.`,
   `<a href="https://github.com/bahmutov/es-features-to-babel-plugins">es-features-to-babel-plugins</a> is a map between
   <a href="https://github.com/getify/es-feature-tests">detected ES6 features</a> and
-  <a href="https://babeljs.io/docs/plugins/">Babel</a> transpiler plugins.`
+  <a href="https://babeljs.io/docs/plugins/">Babel</a> transpiler plugins.`,
+  `<a href="https://github.com/bahmutov/generator-node-bahmutov">generator-node-bahmutov</a> is my
+  personal quick Node project starter.`,
+  `<a href="https://github.com/bahmutov/node-sentry-error-reporter">node-sentry-error-reporter</a>
+  is a zero configuration exception reporter for Node.`,
+  `<a href="https://github.com/bahmutov/pad-filenames">pad-filenames</a> is CLI filename padder
+  to solve annoying file sorting when filenames are of different length.`,
+  `<a href="https://github.com/bahmutov/wiseli">wiseli</a> shows usage example for an NPM
+  project while running the NPM install command.`,
+  `<a href="https://github.com/bahmutov/vo-task">vo-task</a>
+  wraps data.task around VO async function.`,
+  `<a href="https://github.com/bahmutov/redux-vs-rethinkdb">redux-vs-rethinkdb</a> -
+  immutable Redux "store" is just a database example.`
 ].map((item) => {
   if (typeof item === 'string') {
     return {
