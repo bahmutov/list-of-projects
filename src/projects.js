@@ -1,4 +1,6 @@
 const projects = [
+  `<a href="https://github.com/bahmutov/draw-cycle">draw-cycle</a> is
+  a simple Cycle.js application visualized: streams, events, DOM.`,
   `<a href="https://github.com/bahmutov/bottle-service">bottle-service</a> is a tiny library to enable
   any web application to become a self-rewriting app instantly loaded from ServiceWorker cache.
   See an example application demo at <a href="https://instant-todo.herokuapp.com/">instant-vdom-todo</a>
@@ -332,7 +334,20 @@ inside ServiceWorker.`,
   `<a href="https://github.com/bahmutov/vo-task">vo-task</a>
   wraps data.task around VO async function.`,
   `<a href="https://github.com/bahmutov/redux-vs-rethinkdb">redux-vs-rethinkdb</a> -
-  immutable Redux "store" is just a database example.`
+  immutable Redux "store" is just a database example.`,
+  `<a href="https://github.com/bahmutov/rollem">rollem</a> - for bundling multiple
+  ES6 modules at once using Rollup.`,
+  `<a href="https://github.com/bahmutov/report-result">report-result</a> is
+  a small functional utility for top level reporting to console and
+  crash reporting service.`,
+  `<a href="https://github.com/bahmutov/double-docker">double-docker</a> -
+  building NPM docker image in stages for faster NPM installs.`,
+  `<a href="https://github.com/bahmutov/rambo">Rambo</a> -
+  Automatic Ramda solution bot.`,
+  `<a href="https://github.com/bahmutov/liverage">liverage</a> -
+  Makes your server-side code coverage a real time live source.
+  There is a corresponding
+  <a href="https://github.com/bahmutov/liverage-client">liverage-client</a>.`
 ].map((item) => {
   if (typeof item === 'string') {
     return {
