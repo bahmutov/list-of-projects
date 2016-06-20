@@ -347,7 +347,12 @@ inside ServiceWorker.`,
   `<a href="https://github.com/bahmutov/liverage">liverage</a> -
   Makes your server-side code coverage a real time live source.
   There is a corresponding
-  <a href="https://github.com/bahmutov/liverage-client">liverage-client</a>.`
+  <a href="https://github.com/bahmutov/liverage-client">liverage-client</a>.`,
+  `<a href="https://github.com/bahmutov/feathers-nedb-dump">feathers-nedb-dump</a>
+  - Middleware for Feathers.js framework to dump and restore NeDB databases.`,
+  `<a href="https://github.com/bahmutov/feathers-chat-app">feathers-chat-app</a>
+  - example Feathers application that uses <code>feathers-nedb-dump</code>
+  to roll over database durig immutable <a href="https://zeit.co/">Zeit</a> deploys.`
 ].map((item) => {
   if (typeof item === 'string') {
     return {
