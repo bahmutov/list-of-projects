@@ -375,8 +375,12 @@ inside ServiceWorker.`,
   Create Redux actions with run time type checks via Archetype`,
   `<a href="https://github.com/bahmutov/if-monad-frp">if-monad-frp</a>
   - Example with imperative if-else vs monad vs functional reactive programming`
-].map((item) => {
-  if (typeof item === 'string') {
+]
+
+const isString = item => typeof item === 'string'
+
+const htmlProjects = projects.map(item => {
+  if (isString(item)) {
     return {
       html: item
     }
@@ -384,4 +388,6 @@ inside ServiceWorker.`,
   return item
 })
 
-module.exports = projects
+console.log('exporting %d projects', htmlProjects.length)
+
+module.exports = htmlProjects
