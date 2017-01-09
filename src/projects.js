@@ -352,7 +352,29 @@ inside ServiceWorker.`,
   - Middleware for Feathers.js framework to dump and restore NeDB databases.`,
   `<a href="https://github.com/bahmutov/feathers-chat-app">feathers-chat-app</a>
   - example Feathers application that uses <code>feathers-nedb-dump</code>
-  to roll over database durig immutable <a href="https://zeit.co/">Zeit</a> deploys.`
+  to roll over database durig immutable <a href="https://zeit.co/">Zeit</a> deploys.`,
+  `<a href="https://github.com/bahmutov/http2-push-example">http2-push-example</a>
+  - example Node HTTP/2 server with Server Push feature`,
+  `<a href="https://github.com/bahmutov/version-middleware">version-middleware</a>
+  - Express.js middleware that returns NPM version and Git SHA`,
+  `<a href="https://github.com/bahmutov/built-version">built-version</a>
+  - Generates a JSON file with git SHA and latest module version`,
+  `<a href="https://github.com/bahmutov/next-ver">next-ver</a>
+  - Tells you the next semantic version for your local package`,
+  `<a href="https://github.com/bahmutov/latest-version-or-tag">latest-version-or-tag</a>
+  - Finds latest semver from the package or git tag`,
+  `<a href="https://github.com/bahmutov/cypress-failed-log">cypress-failed-log</a>
+  - Gets you the Cypress test command log as JSON on failure`,
+  `<a href="https://github.com/bahmutov/run-each-cypress-spec">run-each-cypress-spec</a>
+  - Small script to run each Cypress spec file one by one`,
+  `<a href="https://github.com/bahmutov/send-test-info">send-test-info</a>
+  - Attach unit test information to exceptions sent by Raven to Sentry`,
+  `<a href="https://github.com/bahmutov/dont-crack">dont-crack</a>
+  - semantic-release plugin checking if the new semantic release is breaking dependent projects`,
+  `<a href="https://github.com/bahmutov/archetype-actions">archetype-actions</a>
+  Create Redux actions with run time type checks via Archetype`,
+  `<a href="https://github.com/bahmutov/if-monad-frp">if-monad-frp</a>
+  - Example with imperative if-else vs monad vs functional reactive programming`
 ].map((item) => {
   if (typeof item === 'string') {
     return {
