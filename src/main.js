@@ -27,7 +27,7 @@ Vue.transition('fade', {
 })
 
 new Vue({ // eslint-disable-line
-  el: '#projects-list',
+  el: '#app',
   data: {
     searchText: '',
     projects: projects
