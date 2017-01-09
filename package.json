@@ -17,6 +17,7 @@
     "grunt-gh-pages": "1.0.0",
     "grunty": "0.2.0",
     "installcat": "0.2.0",
+    "pre-git": "3.12.0",
     "standard": "8.6.0",
     "style-loader": "^0.13.0",
     "template-html-loader": "0.0.3",
@@ -31,7 +32,8 @@
     "issues": "git-issues",
     "build": "cross-env NODE_ENV=production webpack --progress --verbose",
     "lint": "standard --verbose --fix src webpack.config.js",
-    "deploy": "npm run build && grunty grunt-gh-pages gh-pages gh-pages.json"
+    "deploy": "npm run build && grunty grunt-gh-pages gh-pages gh-pages.json",
+    "commit": "commit-wizard"
   },
   "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
   "license": "MIT",
@@ -50,5 +52,18 @@
     "website",
     "personal",
     "projects"
-  ]
+  ],
+  "config": {
+    "pre-git": {
+      "commit-msg": "simple",
+      "pre-commit": [
+        "npm test",
+        "npm run build"
+      ],
+      "pre-push": [],
+      "post-commit": [],
+      "post-checkout": [],
+      "post-merge": []
+    }
+  }
 }
