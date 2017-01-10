@@ -374,7 +374,11 @@ inside ServiceWorker.`,
   `<a href="https://github.com/bahmutov/archetype-actions">archetype-actions</a>
   Create Redux actions with run time type checks via Archetype`,
   `<a href="https://github.com/bahmutov/if-monad-frp">if-monad-frp</a>
-  - Example with imperative if-else vs monad vs functional reactive programming`
+  - Example with imperative if-else vs monad vs functional reactive programming`,
+  `<a href="https://github.com/bahmutov/stop-build">stop-build</a>
+  - Exits with non-zero code if there are modified Git files`,
+  `<a href="https://github.com/bahmutov/simple-commit-message">simple-commit-message</a>
+  - Simple commit message wizard and validator; works with commitizen and pre-git`
 ]
 
 const isString = item => typeof item === 'string'
