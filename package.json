@@ -4,6 +4,7 @@
   "main": "index.js",
   "dependencies": {
     "hydrate-app": "1.4.1",
+    "lazy-ass": "1.5.0",
     "vue": "1.0.10-csp"
   },
   "devDependencies": {
@@ -57,6 +58,7 @@
     "pre-git": {
       "commit-msg": "simple",
       "pre-commit": [
+        "npm run lint",
         "npm test",
         "npm run build"
       ],

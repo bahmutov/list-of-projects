@@ -1,3 +1,5 @@
+const la = require('lazy-ass')
+
 const projects = [
   `<a href="https://github.com/bahmutov/draw-cycle">draw-cycle</a> is
   a simple Cycle.js application visualized: streams, events, DOM.`,
@@ -378,10 +380,30 @@ inside ServiceWorker.`,
   `<a href="https://github.com/bahmutov/stop-build">stop-build</a>
   - Exits with non-zero code if there are modified Git files`,
   `<a href="https://github.com/bahmutov/simple-commit-message">simple-commit-message</a>
-  - Simple commit message wizard and validator; works with commitizen and pre-git`
+  - Simple commit message wizard and validator; works with commitizen and pre-git`,
+  {
+    name: 'safe-env',
+    url: 'https://github.com/bahmutov/safe-env',
+    text: 'Returns all environment variables with sensitive values hidden, great for logs'
+  },
+  {
+    name: 'little-store',
+    url: 'https://github.com/bahmutov/little-store',
+    text: 'Super simple curried storage in a given plain object when you just must have mutable state'
+  }
 ]
 
 const isString = item => typeof item === 'string'
+const hasHtml = item => 'html' in item
+
+function makeHtml (item) {
+  la(item.name, 'missing name', item)
+  la(item.url, 'missing url', item)
+  la(item.text, 'missing text', item)
+  return {
+    html: `<a href="${item.url}">${item.name}</a> - ${item.text}`
+  }
+}
 
 const htmlProjects = projects.map(item => {
   if (isString(item)) {
@@ -389,7 +411,7 @@ const htmlProjects = projects.map(item => {
       html: item
     }
   }
-  return item
+  return hasHtml(item) ? item : makeHtml(item)
 })
 
 console.log('exporting %d projects', htmlProjects.length)
