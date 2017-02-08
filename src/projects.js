@@ -409,17 +409,18 @@ inside ServiceWorker.`,
   {
     name: 'snap-shot',
     url: 'https://github.com/bahmutov/snap-shot',
-    text: 'Jest-like snapshot feature for the rest of us, work magically'
+    text: 'Jest-like snapshot feature for the rest of us, works magically by finding the right caller function'
   },
   {
     name: 'game-of-github',
     url: 'https://glebbahmutov.com/game-of-github/',
-    text: 'Play Game of Life in your GitHub contributions'
+    text: 'Play Game of Life inside GitHub contributions chart'
   },
   {
     name: 'stack-sites',
     url: 'https://github.com/bahmutov/stack-sites',
-    text: 'Returns current stack as call sites using a mock exception'
+    text: `Returns current stack as call sites using a mock exception,
+    accurate for <a href="https://glebbahmutov.com/blog/accurate-call-sites/">transpiled code</a>`
   }
 ]
 
