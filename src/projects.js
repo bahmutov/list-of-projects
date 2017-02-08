@@ -390,6 +390,36 @@ inside ServiceWorker.`,
     name: 'little-store',
     url: 'https://github.com/bahmutov/little-store',
     text: 'Super simple curried storage in a given plain object when you just must have mutable state'
+  },
+  {
+    name: 'cypress-arrows',
+    url: 'https://github.com/bahmutov/cypress-arrows',
+    text: 'Custom left, right, up and down keyboard arrow commands for Cypress'
+  },
+  {
+    name: 'gitlab-build-info',
+    url: 'https://github.com/bahmutov/gitlab-build-info',
+    text: 'Grabs GitLab environment variables from the environment, useful for detailed emails and test logs'
+  },
+  {
+    name: 'cypress-failed-email',
+    url: 'https://github.com/bahmutov/cypress-failed-email',
+    text: 'A beautifully formatted and helpful email when Cypress test fails'
+  },
+  {
+    name: 'snap-shot',
+    url: 'https://github.com/bahmutov/snap-shot',
+    text: 'Jest-like snapshot feature for the rest of us, work magically'
+  },
+  {
+    name: 'game-of-github',
+    url: 'https://glebbahmutov.com/game-of-github/',
+    text: 'Play Game of Life in your GitHub contributions'
+  },
+  {
+    name: 'stack-sites',
+    url: 'https://github.com/bahmutov/stack-sites',
+    text: 'Returns current stack as call sites using a mock exception'
   }
 ]
 
