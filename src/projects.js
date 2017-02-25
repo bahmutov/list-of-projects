@@ -399,7 +399,12 @@ inside ServiceWorker.`,
   {
     name: 'gitlab-build-info',
     url: 'https://github.com/bahmutov/gitlab-build-info',
-    text: 'Grabs GitLab environment variables from the environment, useful for detailed emails and test logs'
+    text: 'Grabs GitLab environment variables, useful for detailed emails and test logs'
+  },
+  {
+    name: 'jenkins-build-info',
+    url: 'https://github.com/bahmutov/jenkins-build-info',
+    text: 'Link <code>gitlab-build-info</code> but for Jenkins'
   },
   {
     name: 'cypress-failed-email',
@@ -421,6 +426,21 @@ inside ServiceWorker.`,
     url: 'https://github.com/bahmutov/stack-sites',
     text: `Returns current stack as call sites using a mock exception,
     accurate for <a href="https://glebbahmutov.com/blog/accurate-call-sites/">transpiled code</a>`
+  },
+  {
+    name: 'validate-by-example',
+    url: 'https://github.com/bahmutov/validate-by-example',
+    text: 'Derives a JSON schema from an object and then uses it to validate other objects'
+  },
+  {
+    name: 'schema-shot',
+    url: 'https://github.com/bahmutov/schema-shot',
+    text: 'Framework-agnostic snapshot testing using "schema by example" for highly dynamic data'
+  },
+  {
+    name: 'have-it',
+    url: 'https://github.com/bahmutov/have-it',
+    text: 'The fastest NPM install does nothing because you already have it'
   }
 ]
 
