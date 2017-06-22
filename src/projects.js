@@ -438,9 +438,24 @@ inside ServiceWorker.`,
     text: 'Framework-agnostic snapshot testing using "schema by example" for highly dynamic data'
   },
   {
+    name: 'subset-shot',
+    url: 'https://github.com/bahmutov/subset-shot',
+    text: 'Snapshot testing where new value can be a superset of the saved snapshot'
+  },
+  {
     name: 'have-it',
     url: 'https://github.com/bahmutov/have-it',
     text: 'The fastest NPM install does nothing because you already have it'
+  },
+  {
+    name: 'focha',
+    url: 'https://github.com/bahmutov/focha',
+    text: 'Mocha wrapper that runs previously failed tests first'
+  },
+  {
+    name: 'bin-up',
+    url: 'https://github.com/bahmutov/bin-up',
+    text: 'Finds an installed tool in node_modules/.bin folders from current up to the git root'
   }
 ]
 
