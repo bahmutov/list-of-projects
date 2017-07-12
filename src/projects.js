@@ -456,6 +456,61 @@ inside ServiceWorker.`,
     name: 'bin-up',
     url: 'https://github.com/bahmutov/bin-up',
     text: 'Finds an installed tool in node_modules/.bin folders from current up to the git root'
+  },
+  {
+    name: 'rebuild-node-sass',
+    url: 'https://github.com/bahmutov/rebuild-node-sass',
+    text: 'Rebuilds node-sass but only if needed'
+  },
+  {
+    name: 'am-i-a-dependency',
+    url: 'https://github.com/bahmutov/am-i-a-dependency',
+    text: 'Check if the package is being installed by another package'
+  },
+  {
+    name: 'next-update-travis',
+    url: 'https://github.com/bahmutov/next-update-travis',
+    text: 'Safely update your NPM dependencies using TravisCI cron jobs'
+  },
+  {
+    name: 'prefixed-list',
+    url: 'https://github.com/bahmutov/prefixed-list',
+    text: `Given a list of strings, finds common prefix and returns shorter string <code>prefix[foo, bar, baz]</code>`
+  },
+  {
+    name: 'new-public-commits',
+    url: 'https://github.com/bahmutov/new-public-commits',
+    text: 'Returns list of commits since last tag with types relevant to users: major, minor, etc'
+  },
+  {
+    name: 'commit-closes',
+    url: 'https://github.com/bahmutov/commit-closes',
+    text: 'Parses commit message to find all "fixes", "closes" and "resolves" issue numbers'
+  },
+  {
+    name: 'github-post-release',
+    url: 'https://github.com/bahmutov/github-post-release',
+    text: 'Forms release changelog and posts a note to each referenced issues after semantic release publishes a new module version'
+  },
+  {
+    name: 'stub-spawn-once',
+    url: 'https://github.com/bahmutov/stub-spawn-once',
+    text: 'Stubs <code>child_process.spawn</code> for a single command; cleans up afterwards. Perfect for testing.'
+  },
+  {
+    name: '@cypress/questions-remain',
+    url: 'https://github.com/cypress-io/questions-remain',
+    text: 'Asks the user to provide the remaining options not specified via CLI'
+  },
+  {
+    name: '@cypress/error-message',
+    url: 'https://github.com/cypress-io/error-message',
+    text: 'User-friendly error text with additional information'
+  },
+  {
+    name: '@cypress/env-or-json-file',
+    url: 'https://github.com/cypress-io/env-or-json-file',
+    text: 'Loads JSON object from environment string or local file'
   }
 ]
 
