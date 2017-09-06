@@ -511,11 +511,81 @@ inside ServiceWorker.`,
     name: '@cypress/env-or-json-file',
     url: 'https://github.com/cypress-io/env-or-json-file',
     text: 'Loads JSON object from environment string or local file'
+  },
+  {
+    name: 'simple-changelog',
+    url: 'https://github.com/bahmutov/simple-changelog',
+    text: 'Simple GitHub release changelog from public semantic commits'
+  },
+  {
+    name: 'object-to-camel-case',
+    url: 'https://github.com/bahmutov/object-to-camel-case',
+    text: 'Renames every property in the given object to be camelCased'
+  },
+  {
+    url: 'https://github.com/bahmutov/semantic-action',
+    name: 'semantic-action',
+    text: 'Flexible action based on semantic commits: npm publish, deploy'
+  },
+  {
+    name: 'url-to-sha',
+    text: 'Plugin for semantic-action that fetches commit SHA from JSON at given URL'
+  },
+  {
+    name: 'from-iso',
+    text: 'CLI utility that converts ISO string date to local time'
+  },
+  {
+    name: 'repeat-it',
+    text: 'Run a Mocha BDD "it" test as many times as you want'
+  },
+  {
+    name: 'stop-only',
+    text: 'Detects ".only" left in the code accidentally'
+  },
+  {
+    name: 'snap-shot-it',
+    text: 'Smarter snapshot utility for Mocha and BDD test runners + data-driven testing!'
+  },
+  {
+    name: 'its-name',
+    text: 'Given (Mocha) test object, walks it up to give you list of context names'
+  },
+  {
+    name: 'now-checklist',
+    text: 'Personal checklist when writing and deploying a small Node.js service with Zeit Now'
+  },
+  {
+    name: 'leave-tests',
+    text: 'Given Mocha test suite leaves only tests in the given list (using full titles)'
+  },
+  {
+    name: 'execa-wrap',
+    text: 'Wraps execa and makes output suitable for snapshot testing'
+  },
+  {
+    name: 'locha',
+    text: 'Loud Mocha (locha) runs specs twice - first time all, second time just the failing ones with extra verbosity'
+  },
+  {
+    name: 'unload-me',
+    text: 'Self-destruct the current module from require cache'
+  },
+  {
+    name: 'require-and-forget',
+    text: 'Require Node module and immediately remove it from module cache to force loading again next time'
   }
 ]
 
 const isString = item => typeof item === 'string'
 const hasHtml = item => 'html' in item
+
+function addGitHubIfNeeded (item) {
+  if (isString(item.name) && !isString(item.url)) {
+    item.url = `https://github.com/bahmutov/${item.name}`
+  }
+  return item
+}
 
 function makeHtml (item) {
   la(item.name, 'missing name', item)
@@ -532,7 +602,7 @@ const htmlProjects = projects.map(item => {
       html: item
     }
   }
-  return hasHtml(item) ? item : makeHtml(item)
+  return hasHtml(item) ? item : makeHtml(addGitHubIfNeeded(item))
 })
 
 console.log('exporting %d projects', htmlProjects.length)
