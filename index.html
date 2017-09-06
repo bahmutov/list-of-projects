@@ -6,8 +6,10 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Gleb Bahmutov" />
+    <meta name="keywords" content="professional,JavaScript,node,nodejs,performance,security,blogger,mentor" />
     <meta http-equiv="Content-Security-Policy"
       content="script-src
+        https://cdn.ravenjs.com
         https://code.jquery.com
         https://www.google-analytics.com
         'self';
@@ -16,6 +18,8 @@
     <link rel="stylesheet" type="text/css" href="styles/stylesheet.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="styles/pygment_trac.css" media="screen" />
 
+    <script src="https://cdn.ravenjs.com/3.9.1/raven.min.js"></script>
+    <script src="dist/raven-init.js"></script>
     <script src="dist/custom-search-redirect.js"></script>
   </head>
   <body>
@@ -24,7 +28,9 @@
         <h1>Dr. Gleb Bahmutov, PhD</h1>
         <h2>JavaScript ninja, image processing expert, software quality fanatic</h2>
 
-        <a href="mailto:gleb.bahmutov@gmail.com">email</a>
+        <a href="https://github.com/bahmutov/bahmutov.github.io/raw/master/gleb.bahmutov.resume.pdf"
+          title="Gleb Bahmutov - resume">resume</a>
+        <a href="/" id="email">email</a>
         <a href="http://glebbahmutov.com/blog/" title="Better world by better software">blog</a>
         <a href="https://github.com/bahmutov" title="My projects at github">github</a>
         <a href="https://twitter.com/bahmutov" title="Twitter @bahmutov">@bahmutov</a>
@@ -32,7 +38,6 @@
         <a href="javascript:void(0)" title="Search my blog posts and projects" id="search">search</a>
         -->
         <a href="https://slides.com/bahmutov" title="Slide decks from my presentations">slides</a>
-        <a href="https://www.google.com/calendar/embed?src=aGU2bWlpcGllbXM0N3QzNWNjcDRlZXRxcXNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" title="My speaking / attending conferences calendar">conferences</a>
         <a href="videos.html" title="Videos from my talks">videos</a>
         <a href="#about" title="My previous jobs">about me</a>
       </div>
@@ -53,10 +58,11 @@
 
         <p>I am a software engineer interested in front and back end development,
           especially in using JavaScript (and its flavors) across the entire stack.
-          I work at <a href="http://www.kensho.com/">Kensho</a>, making the world a better place.
+          I work at <a href="https://www.cypress.io/">Cypress</a>, making the world a better place.
           I try to <a href="http://glebbahmutov.com/blog/">blog</a>
-          on topics related to software craft.
-          <a href="images/blog-slides-feedback.png">Here</a> is what people say about my blog posts and presentations.
+          on topics related to software craft (more than 300 blog posts!).
+          I have circled the globe sharing my experience with other developers, see
+          <a href="https://slides.com/bahmutov">slides</a> from the past presentations.
         </p>
       </div>
     </div>
@@ -96,6 +102,9 @@
       </ul>
       <h3 id="yesterday">Yesterday</h3>
 
+      <p>Spent 3 years at <a href="https://www.kensho.com/">Kensho</a> working on
+      how world events affect financial markets.</p>
+
       <p>I worked at <a href="http://www.utest.com/">uTest</a> for half a year, mostly bringing together and updating various front end technology stacks.</p>
 
       <p>I worked for a year at <a href="http://www.mathworks.com/">MathWorks</a>, helping to bring the power of MATLAB to the browser.</p>
@@ -130,6 +139,7 @@
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="dist/build.js"></script>
     <script src="dist/ga.js"></script>
+    <script src="dist/email.js"></script>
     <!--
     <script src="dist/custom-search.js"></script>
     -->
