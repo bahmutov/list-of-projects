@@ -574,6 +574,26 @@ inside ServiceWorker.`,
   {
     name: 'require-and-forget',
     text: 'Require Node module and immediately remove it from module cache to force loading again next time'
+  },
+  {
+    name: 'make-empty-github-commit',
+    text: 'Makes a new empty commit on GitHub using API'
+  },
+  {
+    name: 'ok-file',
+    text: 'CLI checks if given file exists and is not empty'
+  },
+  {
+    name: 'print-arch',
+    text: 'Cross-platform print platform and architecture'
+  },
+  {
+    name: 'print-env',
+    text: 'Prints all environment variables that start with given string'
+  },
+  {
+    name: 'commit-message-install',
+    text: 'NPM install a package by name taken from the last commit message'
   }
 ]
 
