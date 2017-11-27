@@ -4,22 +4,22 @@
   "main": "index.js",
   "dependencies": {
     "hydrate-app": "1.8.0",
-    "lazy-ass": "1.5.0",
+    "lazy-ass": "1.6.0",
     "vue": "1.0.10-csp"
   },
   "devDependencies": {
     "babel-core": "^5.8.25",
     "babel-loader": "^5.3.2",
     "babel-runtime": "^5.8.25",
-    "cross-env": "1.0.5",
+    "cross-env": "5.1.1",
     "css-loader": "^0.21.0",
-    "git-issues": "1.2.0",
+    "git-issues": "1.3.1",
     "grunt": "0.4.5",
     "grunt-gh-pages": "1.0.0",
     "grunty": "0.2.0",
     "installcat": "0.2.0",
-    "pre-git": "3.12.0",
-    "standard": "8.6.0",
+    "pre-git": "3.16.0",
+    "standard": "10.0.3",
     "style-loader": "^0.13.0",
     "template-html-loader": "0.0.3",
     "vue-hot-reload-api": "^1.2.0",
@@ -67,5 +67,8 @@
       "post-checkout": [],
       "post-merge": []
     }
+  },
+  "release": {
+    "analyzeCommits": "simple-commit-message"
   }
 }

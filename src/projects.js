@@ -35,12 +35,14 @@ inside ServiceWorker.`,
     html: `<a href="http://glebbahmutov.com/2048/">2048 5x5</a> is a clone of the famous 2048 game with larger
           board and two new tiles appearing at each turn. Makes the game very fast paced.
           <a href="https://github.com/bahmutov/2048">source</a>`
-  }, {
+  },
+  {
     name: '2048-cram',
     html: `<a href="http://glebbahmutov.com/2048-cram/">2048-cram</a> lets you play standard 2048 but
           every N seconds pops a JavaScript question. Answer incorrectly and lose a turn, plus get a penalty tile!
           <a href="https://github.com/bahmutov/2048-cram">source</a>.`
-  }, {
+  },
+  {
     name: 'slides-now',
     html: `<a href="http://glebbahmutov.com/slides-now/">slides-now</a> is a stand alone slide presentation
           viewer implemented inside the browser without any server side components. Just drag and drop a Markdown (.md) file
@@ -50,10 +52,12 @@ inside ServiceWorker.`,
           <br>
           Alternatively, there is Chrome <a href="https://chrome.google.com/webstore/detail/slides-now/hcohekeghgkdeimnjfmpdlgccfamggac">extension</a>
           and a stand alone Node <a href="https://npmjs.org/package/slides-now-node">module</a> if you prefer.`
-  }, {
+  },
+  {
     name: 'read on paper',
     html: `<a href="http://readonpaper.com/">read on paper</a> is the simplest way to send readable article from PC to your tablet for easier reading. It saves your eyes and trees!`
-  }, {
+  },
+  {
     name: 'json-package',
     html: `<a href="https://github.com/bahmutov/json-package">json-package</a> is tiny utility for quickly looking up properties from a JSON file.`
   },
@@ -594,6 +598,30 @@ inside ServiceWorker.`,
   {
     name: 'commit-message-install',
     text: 'NPM install a package by name taken from the last commit message'
+  },
+  {
+    name: 'colon-names',
+    text: 'Checks if the NPM script commands in the package.json are all colon separated'
+  },
+  {
+    name: 'list-of-functions',
+    text: 'Returns a function that gives each item from the list one by one'
+  },
+  {
+    name: 'start-server-and-test',
+    text: 'Starts server, waits for URL, then runs test command; when the tests end, shuts down server'
+  },
+  {
+    name: 'add-objects',
+    text: 'Returns a function that combines two objects using given per-property functions'
+  },
+  {
+    name: 'image-as-script',
+    text: 'JavaScript code recognized and executed from an image'
+  },
+  {
+    name: 'vue-vuex-todomvc',
+    text: 'Example TodoMVC Vue.js app with Vuex store and server backend via REST'
   }
 ]
 
