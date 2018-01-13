@@ -622,6 +622,42 @@ inside ServiceWorker.`,
   {
     name: 'vue-vuex-todomvc',
     text: 'Example TodoMVC Vue.js app with Vuex store and server backend via REST'
+  },
+  {
+    name: 'add-typescript-to-cypress',
+    text: 'Quickly adds TypeScript spec support to Cypress'
+  },
+  {
+    name: 'json-server-reset',
+    text: 'Reset middleware for <a href="https://github.com/typicode/json-server">json-server</a>'
+  },
+  {
+    name: 'error-snapshot',
+    text: 'Checks if given function throws an expected error (by saving snapshot)'
+  },
+  {
+    name: 'cypress-vue-unit-test',
+    text: 'A little helper to unit test Vue components in the Cypress.io E2E test runner'
+  },
+  {
+    name: 'cypress-hyperapp-unit-test',
+    text: 'Unit test Hyperapp components using Cypress'
+  },
+  {
+    name: 'cypress-react-unit-test',
+    text: 'Unit test React components using Cypress'
+  },
+  {
+    name: 'cypress-svelte-unit-test',
+    text: 'Unit testing Svelte components in Cypress E2E test runner'
+  },
+  {
+    name: 'node-mock-examples',
+    text: 'Examples of tests that mock Node system APIs: fs, http, child_process, timers'
+  },
+  {
+    name: 'mocha-banner',
+    text: 'Terminal-wide banner with test name before each Mocha test'
   }
 ]
 
