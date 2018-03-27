@@ -658,13 +658,60 @@ inside ServiceWorker.`,
   {
     name: 'mocha-banner',
     text: 'Terminal-wide banner with test name before each Mocha test'
-  }
+  },
+  {
+    name: 'hyperapp-es6-module-cypress',
+    text: 'Testing Hyperapp with ES6 module import in Cypress example'
+  },
+  [
+    'terminal-banner',
+    'Banner text across your terminal. Great separator for tests or long running operations.'
+  ],
+  [
+    'cypress-form-data-with-file-upload',
+    'How to test HTTP form submission with file input using Cypress - a hack'
+  ],
+  [
+    'count-app',
+    'Learning to add numbers through a game. <a href="https://glebbahmutov.com/count-app/">Try it</a>'
+  ],
+  [
+    'cypress-cycle-unit-test',
+    'Unit testing Cycle.js components in Cypress E2E test runner'
+  ],
+  [
+    'cypress-parcel-preprocessor',
+    'Cypress preprocessor for bundling JavaScript via Parcel'
+  ],
+  [
+    'has-only',
+    'Tells if the current Mocha execution is running only some tests that use <code>.only</code>'
+  ],
+  [
+    'is-fork-pr',
+    'Returns true if CI is building a pull request from a remote fork'
+  ],
+  [
+    'change-by-example',
+    'Finds a function that transforms a given object into another given object.'
+  ],
+  [
+    'all-paths',
+    'Given an object returns list of all possible paths to its properties'
+  ]
 ]
 
 const isString = item => typeof item === 'string'
 const hasHtml = item => 'html' in item
+const isTuple = item => Array.isArray(item) && item.length === 2
 
 function addGitHubIfNeeded (item) {
+  if (isTuple(item)) {
+    item = {
+      name: item[0],
+      text: item[1]
+    }
+  }
   if (isString(item.name) && !isString(item.url)) {
     item.url = `https://github.com/bahmutov/${item.name}`
   }
