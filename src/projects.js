@@ -698,6 +698,47 @@ inside ServiceWorker.`,
   [
     'all-paths',
     'Given an object returns list of all possible paths to its properties'
+  ],
+  [
+    'arguments-as-string',
+    'Converts passed arguments into a user-friendly string'
+  ],
+  [
+    'not-allowed',
+    'Throws a good user friendly error if a function is called, useful in stubs during testing'
+  ],
+  [
+    'cypress-angularjs-unit-test',
+    'Unit test Angularjs code using Cypress.io test runner'
+  ],
+  [
+    're-quire',
+    'Quick and dirty Node require for many files at once from subfolders'
+  ],
+  [
+    'print-cachedir',
+    'Prints cache dir for a given project that uses <a href="https://github.com/LinusU/node-cachedir">node-cachedir</a>'
+  ],
+  {
+    name: 'schema-tools',
+    url: 'https://github.com/cypress-io/schema-tools',
+    text: 'Validate, sanitize and document JSON schemas'
+  },
+  [
+    'data-cover',
+    'Instruments code for collecting data coverage (instead of code coverage)'
+  ],
+  [
+    'rolling-task',
+    'Bundles JS using Rollup using Cypress task command'
+  ],
+  [
+    'test-wallaby',
+    'Trying out the Wallaby.js test runner on a small Jest + TypeScript example'
+  ],
+  [
+    'mocked-env',
+    'Easy way to mock process.env during BDD testing'
   ]
 ]
 
