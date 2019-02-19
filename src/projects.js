@@ -227,7 +227,7 @@ inside ServiceWorker.`,
   `I contributed a few features and plugins to <a href="https://github.com/davidmarkclements/cute-stack">cute-stack</a> - a beautiful Node exception stack reporter, for example see my plugin <a href="https://github.com/bahmutov/bad-line">bad-line</a>.`,
   `<a href="https://github.com/bahmutov/ng-hot-templates">ng-hot-templates</a> - reload single AngularJS custom directive in place while keeping the data. See <a href="https://www.youtube.com/watch?v=N5deNI0_caA">demo video</a>`,
   `<a href="https://github.com/bahmutov/gulp-lint-everything">gulp-lint-everything</a> needs just a single command to lint the sources files using all linters.`,
-  `<a href="https://github.com/bahmutov/debug-logdown>debug-logdown">debug-logdown</a> is flexible per-feature logger with Markdown support.`,
+  `<a href="https://github.com/bahmutov/debug-logdown">debug-logdown</a> is flexible per-feature logger with Markdown support.`,
   `<a href="https://github.com/bahmutov/raven-express">raven-express</a> simplifies Sentry client initialization for Express servers.`,
   `<a href="https://github.com/bahmutov/inquirer-confirm">inquirer-confirm</a> is simple promise-returning CLI confirmation question with yes/no choices. Built on top of <a href="https://www.npmjs.com/package/inquirer">inquirer</a>.`,
   `<a href="https://github.com/bahmutov/crasher">crasher</a> is a tiny middleware for throwing sync and async errors; allows verifying your crash reporting setup.`,
@@ -739,6 +739,42 @@ inside ServiceWorker.`,
   [
     'mocked-env',
     'Easy way to mock process.env during BDD testing'
+  ],
+  [
+    'js-equality-game',
+    'Solving "JS equality" game using Cypress test runner'
+  ],
+  [
+    'stop-upper',
+    'Checks that every file in the given folder is lower case'
+  ],
+  [
+    'cypress-dark',
+    'Dark and Halloween color themes for Cypress.io test runner'
+  ],
+  [
+    'cypress-retry',
+    'Retry just the failed Cypress.io tests using Cypress module API and AST rewriting'
+  ],
+  [
+    'cypress-should-callback',
+    'Example running multiple assertions from cypress `should(cb)` function'
+  ],
+  [
+    'cypress-skip-and-only-ui',
+    'Client-side buttons to run a single test or skip it for Cypress test runner'
+  ],
+  [
+    'cypress-get-it',
+    'Get elements by data attribute by creating a Cy command on the fly'
+  ],
+  [
+    'was-tdd',
+    'Checks a branch that claims to fix a bug using TDD principle'
+  ],
+  [
+    '@bahmutov/cly',
+    'A prototype of Cypress CLI for quicker project scaffolding'
   ]
 ]
 
