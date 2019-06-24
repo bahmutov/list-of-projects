@@ -775,6 +775,38 @@ inside ServiceWorker.`,
   [
     '@bahmutov/cly',
     'A prototype of Cypress CLI for quicker project scaffolding'
+  ],
+  [
+    'cypress-watch-and-reload',
+    'Reloads Cypress when one of the watched files changes'
+  ],
+  [
+    'cypress-select-tests',
+    'User space solution for picking Cypress tests to run'
+  ],
+  [
+    'ts-mock-imports-example',
+    'Example mocking individual functions in TypeScript unit tests with ts-mock-imports'
+  ],
+  [
+    'parcel-json-server',
+    'Combination of ParcelJs bundler and json-server'
+  ],
+  [
+    'code-coverage-webpack-dev-server',
+    'Example of Cypress.io code coverage collected from webpack dev server'
+  ],
+  [
+    'cypress-native-chrome-code-coverage-example',
+    'Native code coverage in Chrome browser via Debugger protocol during Cypress end-to-end tests'
+  ],
+  [
+    'multiple-cy-example',
+    'Example using multiple Cypress versions in a monorepo'
+  ],
+  [
+    'cypress-kv-storage-demo',
+    'Proof of concept for testing built-in web module "std:kv-storage"'
   ]
 ]
 
