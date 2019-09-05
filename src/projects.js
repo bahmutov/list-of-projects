@@ -807,6 +807,28 @@ inside ServiceWorker.`,
   [
     'cypress-kv-storage-demo',
     'Proof of concept for testing built-in web module "std:kv-storage"'
+  ],
+  {
+    name: '@cypress/fiddle',
+    url: 'https://github.com/cypress-io/cypress-fiddle',
+    text: 'Generate Cypress tests live from HTML and JS'
+  },
+  [
+    'cypress-and-jest',
+    'Cypress and Jest both with code coverage running unit tests'
+  ],
+  {
+    name: '@cypress/code-coverage',
+    url: 'https://github.com/cypress-io/code-coverage',
+    text: 'Saves the code coverage collected during Cypress tests'
+  },
+  [
+    'cy-api',
+    'Cypress custom command "cy.api" for end-to-end API testing'
+  ],
+  [
+    'all-logs',
+    'Utility method to capture all server console logs including DEBUG=... module logs and util.debuglog'
   ]
 ]
 
