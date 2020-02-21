@@ -829,6 +829,31 @@ inside ServiceWorker.`,
   [
     'all-logs',
     'Utility method to capture all server console logs including DEBUG=... module logs and util.debuglog'
+  ],
+  [
+    'prettier-config-example',
+    'Example for the blog post <a href="https://glebbahmutov.com/blog/configure-prettier-in-vscode/">How to configure Prettier and VSCode</a>'
+  ],
+  [
+    'csv-load-sync',
+    'Sync loading routine for a small comma-separated values file (.csv)'
+  ],
+  [
+    'cypress-expect-n-assertions',
+    'Cypress helper that checks number of expected and actual assertions in the test, read <a href="https://www.cypress.io/blog/2020/01/16/when-can-the-test-stop/">When can the test stop?</a>'
+  ],
+  [
+    'term-to-html',
+    'Stream terminal output with ansi codes into nicely formatted HTML'
+  ],
+  {
+    name: '@cypress/skip-test',
+    url: 'https://github.com/cypress-io/cypress-skip-test',
+    text: 'Simple commands to skip a test based on platform, browser or an url'
+  },
+  [
+    'after-test-run-circle-example',
+    'CircleCI example showing how to run jobs after tests pass or fail'
   ]
 ]
 
