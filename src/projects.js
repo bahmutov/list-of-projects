@@ -854,7 +854,28 @@ inside ServiceWorker.`,
   [
     'after-test-run-circle-example',
     'CircleCI example showing how to run jobs after tests pass or fail'
-  ]
+  ],
+  [
+    'find-webpack',
+    'Utility to find Webpack settings in react-scripts and other situations'
+  ],
+  [
+    'triple-tested',
+    'Deploying to GitHub Pages using GitHub Actions and triple testing it with Cypress'
+  ],
+  [
+    'dependency-version-badge',
+    'A little script to update README file with dependency version badge'
+  ],
+  [
+    'check-code-coverage',
+    'Utilities for checking the coverage produced by NYC against extra or missing files'
+  ],
+  {
+    name: '@bahmutov/cy-rollup',
+    url: 'https://github.com/bahmutov/cy-rollup',
+    text: 'Cypress Rollup preprocessor'
+  }
 ]
 
 const isString = item => typeof item === 'string'
