@@ -875,7 +875,31 @@ inside ServiceWorker.`,
     name: '@bahmutov/cy-rollup',
     url: 'https://github.com/bahmutov/cy-rollup',
     text: 'Cypress Rollup preprocessor'
-  }
+  },
+  [
+    'cypress-extends',
+    'Cypress plugin that adds "extends" support to the configuration file'
+  ],
+  [
+    'cypress-expect',
+    'Cypress CLI wrapper where you can specify the total number of expected tests'
+  ],
+  [
+    'cypress-book-todomvc',
+    'Cypress tests inside README that update the screenshots'
+  ],
+  [
+    'sudoku-applitools',
+    'Cypress React component tests using Applitools visual testing'
+  ],
+  [
+    'bahmutov/sudoku-qafest',
+    'Cypress React component tests using Percy.io visual testing'
+  ],
+  [
+    'cypress-repeat',
+    'Run Cypress multiple times in a row, great at finding test flake'
+  ]
 ]
 
 const isString = item => typeof item === 'string'
