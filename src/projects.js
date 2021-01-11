@@ -899,6 +899,26 @@ inside ServiceWorker.`,
   [
     'cypress-repeat',
     'Run Cypress multiple times in a row, great at finding test flake'
+  ],
+  [
+    'cypress-db-example',
+    'Example that resets the database before every spec, queries the database from the test'
+  ],
+  [
+    'cy-search',
+    'Search Cypress documentation from the terminal'
+  ],
+  [
+    'cypress-timings',
+    'A Cypress plugin for reporting individual command timings'
+  ],
+  [
+    'cypress-markdown-preprocessor',
+    'Use Markdown files as Cypress specs'
+  ],
+  [
+    'cypress-book',
+    'Utilities for updating Cypress screenshots saved as repo images'
   ]
 ]
 
