@@ -917,7 +917,40 @@ inside ServiceWorker.`,
   [
     'cypress-book',
     'Utilities for updating Cypress screenshots saved as repo images'
+  ],
+  [
+    'local-cypress',
+    'Use Cypress without global objects'
+  ],
+  [
+    'test-personal-site',
+    'Example testing an external site using Cypress and GitHub Actions'
+  ],
+  [
+    'netlify-plugin-github-dispatch',
+    'A Netlify plugin that triggers GitHub Actions after the deploy finishes'
+  ],
+  [
+    'monalego',
+    'Visual testing for HTML canvas drawing via Cypress'
+  ],
+  [
+    'cypress-recurse',
+    'A way to re-run Cypress commands until a predicate function returns true'
+  ],
+  [
+    'borda-count',
+    'Counting ranked votes using the Borda tournament method'
+  ],
+  [
+    'cypress-esbuild-preprocessor',
+    'Bundle Cypress specs using esbuild'
+  ],
+  [
+    'cypress-grep',
+    'Filter Cypress tests using title or tags'
   ]
+
 ]
 
 module.exports = {projects}
