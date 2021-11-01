@@ -949,8 +949,55 @@ inside ServiceWorker.`,
   [
     'cypress-grep',
     'Filter Cypress tests using title or tags'
+  ],
+  [
+    'trigger-circleci-pipeline',
+    'A little utility for triggering CircleCI pipelines for a given branch with fallback to the default branch'
+  ],
+  [
+    'mock-in-bundle',
+    'Cypress utility for mocking a module inside a Webpack bundle'
+  ],
+  [
+    'cyclope',
+    'Cypress DOM snapshots and consistent image diffing in the cloud'
+  ],
+  [
+    'scrape-blog-post-page',
+    'Scraping my blog posts using Cypress to send to Algolia search index'
+  ],
+  [
+    'cypress-data-session',
+    'Cypress command for flexible test data setup'
+  ],
+  [
+    'chat.io',
+    'Cypress.io testing for a chat application that requires auth'
+  ],
+  [
+    'cypress-testrail-simple',
+    'Simple upload of Cypress test results to TestRail'
+  ],
+  [
+    'cypress-each',
+    'A plugin that adds describe.each and it.each data-driven testing to Cypress'
+  ],
+  [
+    'cypress-network-idle',
+    'A little Cypress.io plugin for waiting for network to be idle before continuing with the test'
+  ],
+  [
+    'find-test-names',
+    'Given a Mocha / Cypress spec file, returns the list of suite and test names'
+  ],
+  [
+    'cypress-high-resolution',
+    'A plugin to increase the video resolution for cypress run'
+  ],
+  [
+    'cypress-highlight',
+    'Highlights all elements on the page with good test selectors by injecting a CSS rule'
   ]
-
 ]
 
 module.exports = {projects}
