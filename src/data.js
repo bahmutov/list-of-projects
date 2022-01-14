@@ -997,6 +997,42 @@ inside ServiceWorker.`,
   [
     'cypress-highlight',
     'Highlights all elements on the page with good test selectors by injecting a CSS rule'
+  ],
+  [
+    'cypress-should-really',
+    'Functional helpers for constructing Cypress should callbacks'
+  ],
+  [
+    'was-it-scraped',
+    'Tracking scraped resources using an external database'
+  ],
+  [
+    'gh-build-matrix',
+    'A little GitHub Action to generate matrix list for other actions to run jobs in parallel'
+  ],
+  [
+    'cypress-workflows',
+    'Reusable Cypress workflows for GitHub Actions'
+  ],
+  [
+    'gh-action-triggers-circleci',
+    'An example GitHub Action that periodically triggers the CircleCI Pipeline that uses context variables'
+  ],
+  [
+    'cypress-timestamps',
+    'Add timestamps to Cypress tests, error screenshots, and Command Log'
+  ],
+  [
+    'run-cy-on-ci',
+    'Launch on CI a particular Cypress test using grep or grep tags'
+  ],
+  [
+    'cypress-json-results',
+    'A plugin that saves Cypress test results as a JSON file'
+  ],
+  [
+    'find-cypress-specs',
+    'Find Cypress spec files using the config settings, print the names or test structure'
   ]
 ]
 
