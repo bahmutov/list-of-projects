@@ -807,8 +807,8 @@ inside ServiceWorker.`,
     'Proof of concept for testing built-in web module "std:kv-storage"'
   ],
   {
-    name: '@cypress/fiddle',
-    url: 'https://github.com/cypress-io/cypress-fiddle',
+    name: '@bahmutov/cypress-fiddle',
+    url: 'https://github.com/bahmutov/cypress-fiddle',
     text: 'Generate Cypress tests live from HTML and JS'
   },
   [
@@ -1033,6 +1033,50 @@ inside ServiceWorker.`,
   [
     'find-cypress-specs',
     'Find Cypress spec files using the config settings, print the names or test structure'
+  ],
+  [
+    'cypress-set-github-status',
+    'A little Cypress plugin for setting GitHub commit status'
+  ],
+  [
+    'grep-tests-from-pull-requests',
+    'Grabs the test tags to run from the GitHub pull request text and checkboxes'
+  ],
+  [
+    'cypress-wordle',
+    'Solve the Wordle game using Cypress tests'
+  ],
+  [
+    'hexo-generator-gleb',
+    'Hexo category and tag generators without per page limits'
+  ],
+  [
+    'cypress-react-app-actions',
+    'Access the internals of React components from Cypress end-to-end tests'
+  ],
+  [
+    'should-run-github-action',
+    'A reusable GitHub action to determine if the user clicked a checkbox inn the PR text'
+  ],
+  [
+    'testing-app-example',
+    'A TodoMVC app with simple REST backend'
+  ],
+  [
+    'cypress-email-results',
+    'Easily email the test results after Cypress is done'
+  ],
+  [
+    'cypress-command-chain',
+    'See the chained Cypress commands while the test is running'
+  ],
+  [
+    'cypress-ld-control',
+    'Set LaunchDarkly feature flags from Cypress tests'
+  ],
+  [
+    'get-build-id',
+    'GitHub action to fetch the build ID from Next.js deployment'
   ]
 ]
 
