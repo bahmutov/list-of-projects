@@ -1077,6 +1077,58 @@ inside ServiceWorker.`,
   [
     'get-build-id',
     'GitHub action to fetch the build ID from Next.js deployment'
+  ],
+  [
+    'cypress-cdp',
+    'A custom Cypress command to wrap the remote debugger protocol low level command'
+  ],
+  [
+    'cypress-code-coverage',
+    'My version of Cypress code coverage plugin'
+  ],
+  [
+    'cypress-log-to-term',
+    'Overwrite the `cy.log` command to print to both the Command Log and to the terminal'
+  ],
+  [
+    'cypress-slow-down',
+    'Slow down your Cypress tests'
+  ],
+  [
+    'cypress-plugin-config',
+    'Utilities for making Cypress plugin configuration easier'
+  ],
+  [
+    'cypress-if',
+    'Easy conditional if-else logic for your Cypress tests when there is no other way'
+  ],
+  [
+    'cypress-wait-if-happens',
+    'A better `cy.wait` command for network testing'
+  ],
+  [
+    'cypress-v10-preserve-cookie',
+    'Cypress.Cookies.preserveOnce for Cypress v10'
+  ],
+  [
+    'cypress-catch-async-tests',
+    'Prevents accidentally passing an async function as the test callback in Cypress'
+  ],
+  [
+    'cypress-slack-notify',
+    'Post messages in Slack channels when specific Cypress tests and specs fail'
+  ],
+  [
+    'cypress-aliases',
+    'A plugin that makes working with Cypress aliases much simpler'
+  ],
+  [
+    'cypress-soft-assertions',
+    'A plugin that adds Cypress soft assertions'
+  ],
+  [
+    'cypress-time-marks',
+    'Custom Cypress commands to measure elapsed time'
   ]
 ]
 
