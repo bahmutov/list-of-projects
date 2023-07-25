@@ -1129,6 +1129,26 @@ inside ServiceWorker.`,
   [
     'cypress-time-marks',
     'Custom Cypress commands to measure elapsed time'
+  ],
+  [
+    'cypress-map',
+    'Cypress query commands for v12+'
+  ],
+  [
+    'cypress-split',
+    'Split Cypress specs across parallel CI machines for speed'
+  ],
+  [
+    'cypress-on-fix',
+    'Fixes multiple Cypress plugins subscribing to "on" events'
+  ],
+  [
+    'get-branch-name-by-pr',
+    'A Github Action that gets the branch name based on a pull request.'
+  ],
+  [
+    'lhci-gha',
+    'Lighthouse CI results reporting GitHub Action'
   ]
 ]
 
