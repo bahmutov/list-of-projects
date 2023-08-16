@@ -2,8 +2,6 @@
 // https://on.cypress.io/intelligent-code-completion
 /// <reference types="cypress" />
 
-import 'cypress-map'
-
 it('shows number of filtered projects', () => {
   // visit the page
   cy.visit('/')
