@@ -10,9 +10,13 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
       // and load any plugins that require the Node environment
-      on('file:preprocessor', cyAwaitPreprocessor({
-        specPattern: 'cy.js'
-      }))
+      on(
+        'file:preprocessor',
+        cyAwaitPreprocessor({
+          specPattern: '**/*.cy.js',
+          debugOutput: true,
+        }),
+      )
     },
   }
 })
