@@ -32,9 +32,18 @@ new Vue({ // eslint-disable-line
     searchText: '',
     projects: projects
   },
+  computed: {
+    filteredProjects: function () {
+      const filterBy = Vue.filter('filterBy')
+      const filtered = filterBy(this.projects, this.searchText)
+      return filtered
+    }
+  },
   ready: function () {
-    bottle.drink()
-    bottle.refill(true)
+    if (typeof bottle !== 'undefined') {
+      bottle.drink()
+      bottle.refill(true)
+    }
 
     // refocus on search text field
     // because hydrating HTML kills the autofocus
