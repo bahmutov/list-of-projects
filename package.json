@@ -14,7 +14,7 @@
     "cross-env": "5.1.1",
     "css-loader": "^0.21.0",
     "cypress": "12.17.4",
-    "cypress-await": "1.3.0",
+    "cypress-await": "1.4.0",
     "cypress-map": "1.21.0",
     "git-issues": "1.3.1",
     "grunt": "0.4.5",

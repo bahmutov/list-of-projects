@@ -13,10 +13,10 @@ module.exports = defineConfig({
       on(
         'file:preprocessor',
         cyAwaitPreprocessor({
-          specPattern: '**/*.cy.js',
+          specPattern: '.cy.js',
           debugOutput: true,
         }),
       )
     },
-  }
+  },
 })
