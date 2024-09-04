@@ -1149,7 +1149,32 @@ inside ServiceWorker.`,
   [
     'lhci-gha',
     'Lighthouse CI results reporting GitHub Action'
-  ]
+  ],
+  [
+    'cypress-await',
+    'Cypress async await magic 🪄'
+  ],
+  [
+    'cypress-pagination-challenge',
+    'Can you implement a Cypress paginated table test?'
+  ],
+  [
+    'changed-test-ids',
+    'Select tests to run based on source file changes and test ids'
+  ],
+  [
+    'trigger-gh-workflow',
+    'Reusable GH action to trigger a GitHub workflow via dispatch event'
+  ],
+  [
+    'use-cypress-for-api-testing',
+    'Example using Cypress test runner to run API tests'
+  ],
+  [
+    'cypress-toy-visual-testing',
+    'A simple local visual testing for Cypress users'
+  ],
+  ['cypress-skip-this-test', 'Skips the current test if it depends on the previous failed test'],
 ]
 
 module.exports = {projects}
