@@ -32,13 +32,13 @@ inside ServiceWorker.`,
     href: 'http://glebbahmutov.com/2048/',
     html: `<a href="http://glebbahmutov.com/2048/">2048 5x5</a> is a clone of the famous 2048 game with larger
           board and two new tiles appearing at each turn. Makes the game very fast paced.
-          <a href="https://github.com/bahmutov/2048">source</a>`
+          <a href="https://github.com/bahmutov/2048">source</a>`,
   },
   {
     name: '2048-cram',
     html: `<a href="http://glebbahmutov.com/2048-cram/">2048-cram</a> lets you play standard 2048 but
           every N seconds pops a JavaScript question. Answer incorrectly and lose a turn, plus get a penalty tile!
-          <a href="https://github.com/bahmutov/2048-cram">source</a>.`
+          <a href="https://github.com/bahmutov/2048-cram">source</a>.`,
   },
   {
     name: 'slides-now',
@@ -49,15 +49,15 @@ inside ServiceWorker.`,
           It even works when I am offline, because the website is so simple it works from cache.
           <br>
           Alternatively, there is Chrome <a href="https://chrome.google.com/webstore/detail/slides-now/hcohekeghgkdeimnjfmpdlgccfamggac">extension</a>
-          and a stand alone Node <a href="https://npmjs.org/package/slides-now-node">module</a> if you prefer.`
+          and a stand alone Node <a href="https://npmjs.org/package/slides-now-node">module</a> if you prefer.`,
   },
   {
     name: 'read on paper',
-    html: `<a href="http://readonpaper.com/">read on paper</a> is the simplest way to send readable article from PC to your tablet for easier reading. It saves your eyes and trees!`
+    html: `<a href="http://readonpaper.com/">read on paper</a> is the simplest way to send readable article from PC to your tablet for easier reading. It saves your eyes and trees!`,
   },
   {
     name: 'json-package',
-    html: `<a href="https://github.com/bahmutov/json-package">json-package</a> is tiny utility for quickly looking up properties from a JSON file.`
+    html: `<a href="https://github.com/bahmutov/json-package">json-package</a> is tiny utility for quickly looking up properties from a JSON file.`,
   },
   `Command line <a href="https://github.com/bahmutov/boggle">Boggle</a> solver.`,
   `<a href="https://github.com/bahmutov/d3-helpers">d3-helpers</a> are tiny functional utilities mostly to simplify
@@ -386,795 +386,716 @@ inside ServiceWorker.`,
   {
     name: 'safe-env',
     url: 'https://github.com/bahmutov/safe-env',
-    text: 'Returns all environment variables with sensitive values hidden, great for logs'
+    text: 'Returns all environment variables with sensitive values hidden, great for logs',
   },
   {
     name: 'little-store',
     url: 'https://github.com/bahmutov/little-store',
-    text: 'Super simple curried storage in a given plain object when you just must have mutable state'
+    text: 'Super simple curried storage in a given plain object when you just must have mutable state',
   },
   {
     name: 'cypress-arrows',
     url: 'https://github.com/bahmutov/cypress-arrows',
-    text: 'Custom left, right, up and down keyboard arrow commands for Cypress'
+    text: 'Custom left, right, up and down keyboard arrow commands for Cypress',
   },
   {
     name: 'gitlab-build-info',
     url: 'https://github.com/bahmutov/gitlab-build-info',
-    text: 'Grabs GitLab environment variables, useful for detailed emails and test logs'
+    text: 'Grabs GitLab environment variables, useful for detailed emails and test logs',
   },
   {
     name: 'jenkins-build-info',
     url: 'https://github.com/bahmutov/jenkins-build-info',
-    text: 'Link <code>gitlab-build-info</code> but for Jenkins'
+    text: 'Link <code>gitlab-build-info</code> but for Jenkins',
   },
   {
     name: 'cypress-failed-email',
     url: 'https://github.com/bahmutov/cypress-failed-email',
-    text: 'A beautifully formatted and helpful email when Cypress test fails'
+    text: 'A beautifully formatted and helpful email when Cypress test fails',
   },
   {
     name: 'snap-shot',
     url: 'https://github.com/bahmutov/snap-shot',
-    text: 'Jest-like snapshot feature for the rest of us, works magically by finding the right caller function'
+    text: 'Jest-like snapshot feature for the rest of us, works magically by finding the right caller function',
   },
   {
     name: 'game-of-github',
     url: 'https://glebbahmutov.com/game-of-github/',
-    text: 'Play Game of Life inside GitHub contributions chart'
+    text: 'Play Game of Life inside GitHub contributions chart',
   },
   {
     name: 'stack-sites',
     url: 'https://github.com/bahmutov/stack-sites',
     text: `Returns current stack as call sites using a mock exception,
-    accurate for <a href="https://glebbahmutov.com/blog/accurate-call-sites/">transpiled code</a>`
+    accurate for <a href="https://glebbahmutov.com/blog/accurate-call-sites/">transpiled code</a>`,
   },
   {
     name: 'validate-by-example',
     url: 'https://github.com/bahmutov/validate-by-example',
-    text: 'Derives a JSON schema from an object and then uses it to validate other objects'
+    text: 'Derives a JSON schema from an object and then uses it to validate other objects',
   },
   {
     name: 'schema-shot',
     url: 'https://github.com/bahmutov/schema-shot',
-    text: 'Framework-agnostic snapshot testing using "schema by example" for highly dynamic data'
+    text: 'Framework-agnostic snapshot testing using "schema by example" for highly dynamic data',
   },
   {
     name: 'subset-shot',
     url: 'https://github.com/bahmutov/subset-shot',
-    text: 'Snapshot testing where new value can be a superset of the saved snapshot'
+    text: 'Snapshot testing where new value can be a superset of the saved snapshot',
   },
   {
     name: 'have-it',
     url: 'https://github.com/bahmutov/have-it',
-    text: 'The fastest NPM install does nothing because you already have it'
+    text: 'The fastest NPM install does nothing because you already have it',
   },
   {
     name: 'focha',
     url: 'https://github.com/bahmutov/focha',
-    text: 'Mocha wrapper that runs previously failed tests first'
+    text: 'Mocha wrapper that runs previously failed tests first',
   },
   {
     name: 'bin-up',
     url: 'https://github.com/bahmutov/bin-up',
-    text: 'Finds an installed tool in node_modules/.bin folders from current up to the git root'
+    text: 'Finds an installed tool in node_modules/.bin folders from current up to the git root',
   },
   {
     name: 'rebuild-node-sass',
     url: 'https://github.com/bahmutov/rebuild-node-sass',
-    text: 'Rebuilds node-sass but only if needed'
+    text: 'Rebuilds node-sass but only if needed',
   },
   {
     name: 'am-i-a-dependency',
     url: 'https://github.com/bahmutov/am-i-a-dependency',
-    text: 'Check if the package is being installed by another package'
+    text: 'Check if the package is being installed by another package',
   },
   {
     name: 'next-update-travis',
     url: 'https://github.com/bahmutov/next-update-travis',
-    text: 'Safely update your NPM dependencies using TravisCI cron jobs'
+    text: 'Safely update your NPM dependencies using TravisCI cron jobs',
   },
   {
     name: 'prefixed-list',
     url: 'https://github.com/bahmutov/prefixed-list',
-    text: `Given a list of strings, finds common prefix and returns shorter string <code>prefix[foo, bar, baz]</code>`
+    text: `Given a list of strings, finds common prefix and returns shorter string <code>prefix[foo, bar, baz]</code>`,
   },
   {
     name: 'new-public-commits',
     url: 'https://github.com/bahmutov/new-public-commits',
-    text: 'Returns list of commits since last tag with types relevant to users: major, minor, etc'
+    text: 'Returns list of commits since last tag with types relevant to users: major, minor, etc',
   },
   {
     name: 'commit-closes',
     url: 'https://github.com/bahmutov/commit-closes',
-    text: 'Parses commit message to find all "fixes", "closes" and "resolves" issue numbers'
+    text: 'Parses commit message to find all "fixes", "closes" and "resolves" issue numbers',
   },
   {
     name: 'github-post-release',
     url: 'https://github.com/bahmutov/github-post-release',
-    text: 'Forms release changelog and posts a note to each referenced issues after semantic release publishes a new module version'
+    text: 'Forms release changelog and posts a note to each referenced issues after semantic release publishes a new module version',
   },
   {
     name: 'stub-spawn-once',
     url: 'https://github.com/bahmutov/stub-spawn-once',
-    text: 'Stubs <code>child_process.spawn</code> for a single command; cleans up afterwards. Perfect for testing.'
+    text: 'Stubs <code>child_process.spawn</code> for a single command; cleans up afterwards. Perfect for testing.',
   },
   {
     name: '@cypress/questions-remain',
     url: 'https://github.com/cypress-io/questions-remain',
-    text: 'Asks the user to provide the remaining options not specified via CLI'
+    text: 'Asks the user to provide the remaining options not specified via CLI',
   },
   {
     name: '@cypress/error-message',
     url: 'https://github.com/cypress-io/error-message',
-    text: 'User-friendly error text with additional information'
+    text: 'User-friendly error text with additional information',
   },
   {
     name: '@cypress/env-or-json-file',
     url: 'https://github.com/cypress-io/env-or-json-file',
-    text: 'Loads JSON object from environment string or local file'
+    text: 'Loads JSON object from environment string or local file',
   },
   {
     name: 'simple-changelog',
     url: 'https://github.com/bahmutov/simple-changelog',
-    text: 'Simple GitHub release changelog from public semantic commits'
+    text: 'Simple GitHub release changelog from public semantic commits',
   },
   {
     name: 'object-to-camel-case',
     url: 'https://github.com/bahmutov/object-to-camel-case',
-    text: 'Renames every property in the given object to be camelCased'
+    text: 'Renames every property in the given object to be camelCased',
   },
   {
     url: 'https://github.com/bahmutov/semantic-action',
     name: 'semantic-action',
-    text: 'Flexible action based on semantic commits: npm publish, deploy'
+    text: 'Flexible action based on semantic commits: npm publish, deploy',
   },
   {
     name: 'url-to-sha',
-    text: 'Plugin for semantic-action that fetches commit SHA from JSON at given URL'
+    text: 'Plugin for semantic-action that fetches commit SHA from JSON at given URL',
   },
   {
     name: 'from-iso',
-    text: 'CLI utility that converts ISO string date to local time'
+    text: 'CLI utility that converts ISO string date to local time',
   },
   {
     name: 'repeat-it',
-    text: 'Run a Mocha BDD "it" test as many times as you want'
+    text: 'Run a Mocha BDD "it" test as many times as you want',
   },
   {
     name: 'stop-only',
-    text: 'Detects ".only" left in the code accidentally'
+    text: 'Detects ".only" left in the code accidentally',
   },
   {
     name: 'snap-shot-it',
-    text: 'Smarter snapshot utility for Mocha and BDD test runners + data-driven testing!'
+    text: 'Smarter snapshot utility for Mocha and BDD test runners + data-driven testing!',
   },
   {
     name: 'its-name',
-    text: 'Given (Mocha) test object, walks it up to give you list of context names'
+    text: 'Given (Mocha) test object, walks it up to give you list of context names',
   },
   {
     name: 'now-checklist',
-    text: 'Personal checklist when writing and deploying a small Node.js service with Zeit Now'
+    text: 'Personal checklist when writing and deploying a small Node.js service with Zeit Now',
   },
   {
     name: 'leave-tests',
-    text: 'Given Mocha test suite leaves only tests in the given list (using full titles)'
+    text: 'Given Mocha test suite leaves only tests in the given list (using full titles)',
   },
   {
     name: 'execa-wrap',
-    text: 'Wraps execa and makes output suitable for snapshot testing'
+    text: 'Wraps execa and makes output suitable for snapshot testing',
   },
   {
     name: 'locha',
-    text: 'Loud Mocha (locha) runs specs twice - first time all, second time just the failing ones with extra verbosity'
+    text: 'Loud Mocha (locha) runs specs twice - first time all, second time just the failing ones with extra verbosity',
   },
   {
     name: 'unload-me',
-    text: 'Self-destruct the current module from require cache'
+    text: 'Self-destruct the current module from require cache',
   },
   {
     name: 'require-and-forget',
-    text: 'Require Node module and immediately remove it from module cache to force loading again next time'
+    text: 'Require Node module and immediately remove it from module cache to force loading again next time',
   },
   {
     name: 'make-empty-github-commit',
-    text: 'Makes a new empty commit on GitHub using API'
+    text: 'Makes a new empty commit on GitHub using API',
   },
   {
     name: 'ok-file',
-    text: 'CLI checks if given file exists and is not empty'
+    text: 'CLI checks if given file exists and is not empty',
   },
   {
     name: 'print-arch',
-    text: 'Cross-platform print platform and architecture'
+    text: 'Cross-platform print platform and architecture',
   },
   {
     name: 'print-env',
-    text: 'Prints all environment variables that start with given string'
+    text: 'Prints all environment variables that start with given string',
   },
   {
     name: 'commit-message-install',
-    text: 'NPM install a package by name taken from the last commit message'
+    text: 'NPM install a package by name taken from the last commit message',
   },
   {
     name: 'colon-names',
-    text: 'Checks if the NPM script commands in the package.json are all colon separated'
+    text: 'Checks if the NPM script commands in the package.json are all colon separated',
   },
   {
     name: 'list-of-functions',
-    text: 'Returns a function that gives each item from the list one by one'
+    text: 'Returns a function that gives each item from the list one by one',
   },
   {
     name: 'start-server-and-test',
-    text: 'Starts server, waits for URL, then runs test command; when the tests end, shuts down server'
+    text: 'Starts server, waits for URL, then runs test command; when the tests end, shuts down server',
   },
   {
     name: 'add-objects',
-    text: 'Returns a function that combines two objects using given per-property functions'
+    text: 'Returns a function that combines two objects using given per-property functions',
   },
   {
     name: 'image-as-script',
-    text: 'JavaScript code recognized and executed from an image'
+    text: 'JavaScript code recognized and executed from an image',
   },
   {
     name: 'vue-vuex-todomvc',
-    text: 'Example TodoMVC Vue.js app with Vuex store and server backend via REST'
+    text: 'Example TodoMVC Vue.js app with Vuex store and server backend via REST',
   },
   {
     name: 'add-typescript-to-cypress',
-    text: 'Quickly adds TypeScript spec support to Cypress'
+    text: 'Quickly adds TypeScript spec support to Cypress',
   },
   {
     name: 'json-server-reset',
-    text: 'Reset middleware for <a href="https://github.com/typicode/json-server">json-server</a>'
+    text: 'Reset middleware for <a href="https://github.com/typicode/json-server">json-server</a>',
   },
   {
     name: 'error-snapshot',
-    text: 'Checks if given function throws an expected error (by saving snapshot)'
+    text: 'Checks if given function throws an expected error (by saving snapshot)',
   },
   {
     name: 'cypress-vue-unit-test',
-    text: 'A little helper to unit test Vue components in the Cypress.io E2E test runner'
+    text: 'A little helper to unit test Vue components in the Cypress.io E2E test runner',
   },
   {
     name: 'cypress-hyperapp-unit-test',
-    text: 'Unit test Hyperapp components using Cypress'
+    text: 'Unit test Hyperapp components using Cypress',
   },
   {
     name: 'cypress-react-unit-test',
-    text: 'Unit test React components using Cypress'
+    text: 'Unit test React components using Cypress',
   },
   {
     name: 'cypress-svelte-unit-test',
-    text: 'Unit testing Svelte components in Cypress E2E test runner'
+    text: 'Unit testing Svelte components in Cypress E2E test runner',
   },
   {
     name: 'node-mock-examples',
-    text: 'Examples of tests that mock Node system APIs: fs, http, child_process, timers'
+    text: 'Examples of tests that mock Node system APIs: fs, http, child_process, timers',
   },
   {
     name: 'mocha-banner',
-    text: 'Terminal-wide banner with test name before each Mocha test'
+    text: 'Terminal-wide banner with test name before each Mocha test',
   },
   {
     name: 'hyperapp-es6-module-cypress',
-    text: 'Testing Hyperapp with ES6 module import in Cypress example'
+    text: 'Testing Hyperapp with ES6 module import in Cypress example',
   },
   [
     'terminal-banner',
-    'Banner text across your terminal. Great separator for tests or long running operations.'
+    'Banner text across your terminal. Great separator for tests or long running operations.',
   ],
   [
     'cypress-form-data-with-file-upload',
-    'How to test HTTP form submission with file input using Cypress - a hack'
+    'How to test HTTP form submission with file input using Cypress - a hack',
   ],
   [
     'count-app',
-    'Learning to add numbers through a game. <a href="https://glebbahmutov.com/count-app/">Try it</a>'
+    'Learning to add numbers through a game. <a href="https://glebbahmutov.com/count-app/">Try it</a>',
   ],
   [
     'cypress-cycle-unit-test',
-    'Unit testing Cycle.js components in Cypress E2E test runner'
+    'Unit testing Cycle.js components in Cypress E2E test runner',
   ],
   [
     'cypress-parcel-preprocessor',
-    'Cypress preprocessor for bundling JavaScript via Parcel'
+    'Cypress preprocessor for bundling JavaScript via Parcel',
   ],
   [
     'has-only',
-    'Tells if the current Mocha execution is running only some tests that use <code>.only</code>'
+    'Tells if the current Mocha execution is running only some tests that use <code>.only</code>',
   ],
   [
     'is-fork-pr',
-    'Returns true if CI is building a pull request from a remote fork'
+    'Returns true if CI is building a pull request from a remote fork',
   ],
   [
     'change-by-example',
-    'Finds a function that transforms a given object into another given object.'
+    'Finds a function that transforms a given object into another given object.',
   ],
   [
     'all-paths',
-    'Given an object returns list of all possible paths to its properties'
+    'Given an object returns list of all possible paths to its properties',
   ],
   [
     'arguments-as-string',
-    'Converts passed arguments into a user-friendly string'
+    'Converts passed arguments into a user-friendly string',
   ],
   [
     'not-allowed',
-    'Throws a good user friendly error if a function is called, useful in stubs during testing'
+    'Throws a good user friendly error if a function is called, useful in stubs during testing',
   ],
   [
     'cypress-angularjs-unit-test',
-    'Unit test Angularjs code using Cypress.io test runner'
+    'Unit test Angularjs code using Cypress.io test runner',
   ],
   [
     're-quire',
-    'Quick and dirty Node require for many files at once from subfolders'
+    'Quick and dirty Node require for many files at once from subfolders',
   ],
   [
     'print-cachedir',
-    'Prints cache dir for a given project that uses <a href="https://github.com/LinusU/node-cachedir">node-cachedir</a>'
+    'Prints cache dir for a given project that uses <a href="https://github.com/LinusU/node-cachedir">node-cachedir</a>',
   ],
   {
     name: 'schema-tools',
     url: 'https://github.com/cypress-io/schema-tools',
-    text: 'Validate, sanitize and document JSON schemas'
+    text: 'Validate, sanitize and document JSON schemas',
   },
   [
     'data-cover',
-    'Instruments code for collecting data coverage (instead of code coverage)'
+    'Instruments code for collecting data coverage (instead of code coverage)',
   ],
-  [
-    'rolling-task',
-    'Bundles JS using Rollup using Cypress task command'
-  ],
+  ['rolling-task', 'Bundles JS using Rollup using Cypress task command'],
   [
     'test-wallaby',
-    'Trying out the Wallaby.js test runner on a small Jest + TypeScript example'
+    'Trying out the Wallaby.js test runner on a small Jest + TypeScript example',
   ],
-  [
-    'mocked-env',
-    'Easy way to mock process.env during BDD testing'
-  ],
-  [
-    'js-equality-game',
-    'Solving "JS equality" game using Cypress test runner'
-  ],
-  [
-    'stop-upper',
-    'Checks that every file in the given folder is lower case'
-  ],
+  ['mocked-env', 'Easy way to mock process.env during BDD testing'],
+  ['js-equality-game', 'Solving "JS equality" game using Cypress test runner'],
+  ['stop-upper', 'Checks that every file in the given folder is lower case'],
   [
     'cypress-dark',
-    'Dark and Halloween color themes for Cypress.io test runner'
+    'Dark and Halloween color themes for Cypress.io test runner',
   ],
   [
     'cypress-retry',
-    'Retry just the failed Cypress.io tests using Cypress module API and AST rewriting'
+    'Retry just the failed Cypress.io tests using Cypress module API and AST rewriting',
   ],
   [
     'cypress-should-callback',
-    'Example running multiple assertions from cypress `should(cb)` function'
+    'Example running multiple assertions from cypress `should(cb)` function',
   ],
   [
     'cypress-skip-and-only-ui',
-    'Client-side buttons to run a single test or skip it for Cypress test runner'
+    'Client-side buttons to run a single test or skip it for Cypress test runner',
   ],
   [
     'cypress-get-it',
-    'Get elements by data attribute by creating a Cy command on the fly'
+    'Get elements by data attribute by creating a Cy command on the fly',
   ],
-  [
-    'was-tdd',
-    'Checks a branch that claims to fix a bug using TDD principle'
-  ],
+  ['was-tdd', 'Checks a branch that claims to fix a bug using TDD principle'],
   [
     '@bahmutov/cly',
-    'A prototype of Cypress CLI for quicker project scaffolding'
+    'A prototype of Cypress CLI for quicker project scaffolding',
   ],
   [
     'cypress-watch-and-reload',
-    'Reloads Cypress when one of the watched files changes'
+    'Reloads Cypress when one of the watched files changes',
   ],
   [
     'cypress-select-tests',
-    'User space solution for picking Cypress tests to run'
+    'User space solution for picking Cypress tests to run',
   ],
   [
     'ts-mock-imports-example',
-    'Example mocking individual functions in TypeScript unit tests with ts-mock-imports'
+    'Example mocking individual functions in TypeScript unit tests with ts-mock-imports',
   ],
-  [
-    'parcel-json-server',
-    'Combination of ParcelJs bundler and json-server'
-  ],
+  ['parcel-json-server', 'Combination of ParcelJs bundler and json-server'],
   [
     'code-coverage-webpack-dev-server',
-    'Example of Cypress.io code coverage collected from webpack dev server'
+    'Example of Cypress.io code coverage collected from webpack dev server',
   ],
   [
     'cypress-native-chrome-code-coverage-example',
-    'Native code coverage in Chrome browser via Debugger protocol during Cypress end-to-end tests'
+    'Native code coverage in Chrome browser via Debugger protocol during Cypress end-to-end tests',
   ],
   [
     'multiple-cy-example',
-    'Example using multiple Cypress versions in a monorepo'
+    'Example using multiple Cypress versions in a monorepo',
   ],
   [
     'cypress-kv-storage-demo',
-    'Proof of concept for testing built-in web module "std:kv-storage"'
+    'Proof of concept for testing built-in web module "std:kv-storage"',
   ],
   {
     name: '@bahmutov/cypress-fiddle',
     url: 'https://github.com/bahmutov/cypress-fiddle',
-    text: 'Generate Cypress tests live from HTML and JS'
+    text: 'Generate Cypress tests live from HTML and JS',
   },
   [
     'cypress-and-jest',
-    'Cypress and Jest both with code coverage running unit tests'
+    'Cypress and Jest both with code coverage running unit tests',
   ],
   {
     name: '@cypress/code-coverage',
     url: 'https://github.com/cypress-io/code-coverage',
-    text: 'Saves the code coverage collected during Cypress tests'
+    text: 'Saves the code coverage collected during Cypress tests',
   },
-  [
-    'cy-api',
-    'Cypress custom command "cy.api" for end-to-end API testing'
-  ],
+  ['cy-api', 'Cypress custom command "cy.api" for end-to-end API testing'],
   [
     'all-logs',
-    'Utility method to capture all server console logs including DEBUG=... module logs and util.debuglog'
+    'Utility method to capture all server console logs including DEBUG=... module logs and util.debuglog',
   ],
   [
     'prettier-config-example',
-    'Example for the blog post <a href="https://glebbahmutov.com/blog/configure-prettier-in-vscode/">How to configure Prettier and VSCode</a>'
+    'Example for the blog post <a href="https://glebbahmutov.com/blog/configure-prettier-in-vscode/">How to configure Prettier and VSCode</a>',
   ],
   [
     'csv-load-sync',
-    'Sync loading routine for a small comma-separated values file (.csv)'
+    'Sync loading routine for a small comma-separated values file (.csv)',
   ],
   [
     'cypress-expect-n-assertions',
-    'Cypress helper that checks number of expected and actual assertions in the test, read <a href="https://www.cypress.io/blog/2020/01/16/when-can-the-test-stop/">When can the test stop?</a>'
+    'Cypress helper that checks number of expected and actual assertions in the test, read <a href="https://www.cypress.io/blog/2020/01/16/when-can-the-test-stop/">When can the test stop?</a>',
   ],
   [
     'term-to-html',
-    'Stream terminal output with ansi codes into nicely formatted HTML'
+    'Stream terminal output with ansi codes into nicely formatted HTML',
   ],
   {
     name: '@cypress/skip-test',
     url: 'https://github.com/cypress-io/cypress-skip-test',
-    text: 'Simple commands to skip a test based on platform, browser or an url'
+    text: 'Simple commands to skip a test based on platform, browser or an url',
   },
   [
     'after-test-run-circle-example',
-    'CircleCI example showing how to run jobs after tests pass or fail'
+    'CircleCI example showing how to run jobs after tests pass or fail',
   ],
   [
     'find-webpack',
-    'Utility to find Webpack settings in react-scripts and other situations'
+    'Utility to find Webpack settings in react-scripts and other situations',
   ],
   [
     'triple-tested',
-    'Deploying to GitHub Pages using GitHub Actions and triple testing it with Cypress'
+    'Deploying to GitHub Pages using GitHub Actions and triple testing it with Cypress',
   ],
   [
     'dependency-version-badge',
-    'A little script to update README file with dependency version badge'
+    'A little script to update README file with dependency version badge',
   ],
   [
     'check-code-coverage',
-    'Utilities for checking the coverage produced by NYC against extra or missing files'
+    'Utilities for checking the coverage produced by NYC against extra or missing files',
   ],
   {
     name: '@bahmutov/cy-rollup',
     url: 'https://github.com/bahmutov/cy-rollup',
-    text: 'Cypress Rollup preprocessor'
+    text: 'Cypress Rollup preprocessor',
   },
   [
     'cypress-extends',
-    'Cypress plugin that adds "extends" support to the configuration file'
+    'Cypress plugin that adds "extends" support to the configuration file',
   ],
   [
     'cypress-expect',
-    'Cypress CLI wrapper where you can specify the total number of expected tests'
+    'Cypress CLI wrapper where you can specify the total number of expected tests',
   ],
   [
     'cypress-book-todomvc',
-    'Cypress tests inside README that update the screenshots'
+    'Cypress tests inside README that update the screenshots',
   ],
   [
     'sudoku-applitools',
-    'Cypress React component tests using Applitools visual testing'
+    'Cypress React component tests using Applitools visual testing',
   ],
   [
     'bahmutov/sudoku-qafest',
-    'Cypress React component tests using Percy.io visual testing'
+    'Cypress React component tests using Percy.io visual testing',
   ],
   [
     'cypress-repeat',
-    'Run Cypress multiple times in a row, great at finding test flake'
+    'Run Cypress multiple times in a row, great at finding test flake',
   ],
   [
     'cypress-db-example',
-    'Example that resets the database before every spec, queries the database from the test'
+    'Example that resets the database before every spec, queries the database from the test',
   ],
-  [
-    'cy-search',
-    'Search Cypress documentation from the terminal'
-  ],
+  ['cy-search', 'Search Cypress documentation from the terminal'],
   [
     'cypress-timings',
-    'A Cypress plugin for reporting individual command timings'
+    'A Cypress plugin for reporting individual command timings',
   ],
-  [
-    'cypress-markdown-preprocessor',
-    'Use Markdown files as Cypress specs'
-  ],
+  ['cypress-markdown-preprocessor', 'Use Markdown files as Cypress specs'],
   [
     'cypress-book',
-    'Utilities for updating Cypress screenshots saved as repo images'
+    'Utilities for updating Cypress screenshots saved as repo images',
   ],
-  [
-    'local-cypress',
-    'Use Cypress without global objects'
-  ],
+  ['local-cypress', 'Use Cypress without global objects'],
   [
     'test-personal-site',
-    'Example testing an external site using Cypress and GitHub Actions'
+    'Example testing an external site using Cypress and GitHub Actions',
   ],
   [
     'netlify-plugin-github-dispatch',
-    'A Netlify plugin that triggers GitHub Actions after the deploy finishes'
+    'A Netlify plugin that triggers GitHub Actions after the deploy finishes',
   ],
-  [
-    'monalego',
-    'Visual testing for HTML canvas drawing via Cypress'
-  ],
+  ['monalego', 'Visual testing for HTML canvas drawing via Cypress'],
   [
     'cypress-recurse',
-    'A way to re-run Cypress commands until a predicate function returns true'
+    'A way to re-run Cypress commands until a predicate function returns true',
   ],
-  [
-    'borda-count',
-    'Counting ranked votes using the Borda tournament method'
-  ],
-  [
-    'cypress-esbuild-preprocessor',
-    'Bundle Cypress specs using esbuild'
-  ],
-  [
-    'cypress-grep',
-    'Filter Cypress tests using title or tags'
-  ],
+  ['borda-count', 'Counting ranked votes using the Borda tournament method'],
+  ['cypress-esbuild-preprocessor', 'Bundle Cypress specs using esbuild'],
+  ['cypress-grep', 'Filter Cypress tests using title or tags'],
   [
     'trigger-circleci-pipeline',
-    'A little utility for triggering CircleCI pipelines for a given branch with fallback to the default branch'
+    'A little utility for triggering CircleCI pipelines for a given branch with fallback to the default branch',
   ],
   [
     'mock-in-bundle',
-    'Cypress utility for mocking a module inside a Webpack bundle'
+    'Cypress utility for mocking a module inside a Webpack bundle',
   ],
   [
     'cyclope',
-    'Cypress DOM snapshots and consistent image diffing in the cloud'
+    'Cypress DOM snapshots and consistent image diffing in the cloud',
   ],
   [
     'scrape-blog-post-page',
-    'Scraping my blog posts using Cypress to send to Algolia search index'
+    'Scraping my blog posts using Cypress to send to Algolia search index',
   ],
-  [
-    'cypress-data-session',
-    'Cypress command for flexible test data setup'
-  ],
-  [
-    'chat.io',
-    'Cypress.io testing for a chat application that requires auth'
-  ],
+  ['cypress-data-session', 'Cypress command for flexible test data setup'],
+  ['chat.io', 'Cypress.io testing for a chat application that requires auth'],
   [
     'cypress-testrail-simple',
-    'Simple upload of Cypress test results to TestRail'
+    'Simple upload of Cypress test results to TestRail',
   ],
   [
     'cypress-each',
-    'A plugin that adds describe.each and it.each data-driven testing to Cypress'
+    'A plugin that adds describe.each and it.each data-driven testing to Cypress',
   ],
   [
     'cypress-network-idle',
-    'A little Cypress.io plugin for waiting for network to be idle before continuing with the test'
+    'A little Cypress.io plugin for waiting for network to be idle before continuing with the test',
   ],
   [
     'find-test-names',
-    'Given a Mocha / Cypress spec file, returns the list of suite and test names'
+    'Given a Mocha / Cypress spec file, returns the list of suite and test names',
   ],
   [
     'cypress-high-resolution',
-    'A plugin to increase the video resolution for cypress run'
+    'A plugin to increase the video resolution for cypress run',
   ],
   [
     'cypress-highlight',
-    'Highlights all elements on the page with good test selectors by injecting a CSS rule'
+    'Highlights all elements on the page with good test selectors by injecting a CSS rule',
   ],
   [
     'cypress-should-really',
-    'Functional helpers for constructing Cypress should callbacks'
+    'Functional helpers for constructing Cypress should callbacks',
   ],
-  [
-    'was-it-scraped',
-    'Tracking scraped resources using an external database'
-  ],
+  ['was-it-scraped', 'Tracking scraped resources using an external database'],
   [
     'gh-build-matrix',
-    'A little GitHub Action to generate matrix list for other actions to run jobs in parallel'
+    'A little GitHub Action to generate matrix list for other actions to run jobs in parallel',
   ],
-  [
-    'cypress-workflows',
-    'Reusable Cypress workflows for GitHub Actions'
-  ],
+  ['cypress-workflows', 'Reusable Cypress workflows for GitHub Actions'],
   [
     'gh-action-triggers-circleci',
-    'An example GitHub Action that periodically triggers the CircleCI Pipeline that uses context variables'
+    'An example GitHub Action that periodically triggers the CircleCI Pipeline that uses context variables',
   ],
   [
     'cypress-timestamps',
-    'Add timestamps to Cypress tests, error screenshots, and Command Log'
+    'Add timestamps to Cypress tests, error screenshots, and Command Log',
   ],
   [
     'run-cy-on-ci',
-    'Launch on CI a particular Cypress test using grep or grep tags'
+    'Launch on CI a particular Cypress test using grep or grep tags',
   ],
   [
     'cypress-json-results',
-    'A plugin that saves Cypress test results as a JSON file'
+    'A plugin that saves Cypress test results as a JSON file',
   ],
   [
     'find-cypress-specs',
-    'Find Cypress spec files using the config settings, print the names or test structure'
+    'Find Cypress spec files using the config settings, print the names or test structure',
   ],
   [
     'cypress-set-github-status',
-    'A little Cypress plugin for setting GitHub commit status'
+    'A little Cypress plugin for setting GitHub commit status',
   ],
   [
     'grep-tests-from-pull-requests',
-    'Grabs the test tags to run from the GitHub pull request text and checkboxes'
+    'Grabs the test tags to run from the GitHub pull request text and checkboxes',
   ],
-  [
-    'cypress-wordle',
-    'Solve the Wordle game using Cypress tests'
-  ],
+  ['cypress-wordle', 'Solve the Wordle game using Cypress tests'],
   [
     'hexo-generator-gleb',
-    'Hexo category and tag generators without per page limits'
+    'Hexo category and tag generators without per page limits',
   ],
   [
     'cypress-react-app-actions',
-    'Access the internals of React components from Cypress end-to-end tests'
+    'Access the internals of React components from Cypress end-to-end tests',
   ],
   [
     'should-run-github-action',
-    'A reusable GitHub action to determine if the user clicked a checkbox inn the PR text'
+    'A reusable GitHub action to determine if the user clicked a checkbox inn the PR text',
   ],
-  [
-    'testing-app-example',
-    'A TodoMVC app with simple REST backend'
-  ],
+  ['testing-app-example', 'A TodoMVC app with simple REST backend'],
   [
     'cypress-email-results',
-    'Easily email the test results after Cypress is done'
+    'Easily email the test results after Cypress is done',
   ],
   [
     'cypress-command-chain',
-    'See the chained Cypress commands while the test is running'
+    'See the chained Cypress commands while the test is running',
   ],
-  [
-    'cypress-ld-control',
-    'Set LaunchDarkly feature flags from Cypress tests'
-  ],
+  ['cypress-ld-control', 'Set LaunchDarkly feature flags from Cypress tests'],
   [
     'get-build-id',
-    'GitHub action to fetch the build ID from Next.js deployment'
+    'GitHub action to fetch the build ID from Next.js deployment',
   ],
   [
     'cypress-cdp',
-    'A custom Cypress command to wrap the remote debugger protocol low level command'
+    'A custom Cypress command to wrap the remote debugger protocol low level command',
   ],
-  [
-    'cypress-code-coverage',
-    'My version of Cypress code coverage plugin'
-  ],
+  ['cypress-code-coverage', 'My version of Cypress code coverage plugin'],
   [
     'cypress-log-to-term',
-    'Overwrite the `cy.log` command to print to both the Command Log and to the terminal'
+    'Overwrite the `cy.log` command to print to both the Command Log and to the terminal',
   ],
-  [
-    'cypress-slow-down',
-    'Slow down your Cypress tests'
-  ],
+  ['cypress-slow-down', 'Slow down your Cypress tests'],
   [
     'cypress-plugin-config',
-    'Utilities for making Cypress plugin configuration easier'
+    'Utilities for making Cypress plugin configuration easier',
   ],
   [
     'cypress-if',
-    'Easy conditional if-else logic for your Cypress tests when there is no other way'
+    'Easy conditional if-else logic for your Cypress tests when there is no other way',
   ],
-  [
-    'cypress-wait-if-happens',
-    'A better `cy.wait` command for network testing'
-  ],
+  ['cypress-wait-if-happens', 'A better `cy.wait` command for network testing'],
   [
     'cypress-v10-preserve-cookie',
-    'Cypress.Cookies.preserveOnce for Cypress v10'
+    'Cypress.Cookies.preserveOnce for Cypress v10',
   ],
   [
     'cypress-catch-async-tests',
-    'Prevents accidentally passing an async function as the test callback in Cypress'
+    'Prevents accidentally passing an async function as the test callback in Cypress',
   ],
   [
     'cypress-slack-notify',
-    'Post messages in Slack channels when specific Cypress tests and specs fail'
+    'Post messages in Slack channels when specific Cypress tests and specs fail',
   ],
   [
     'cypress-aliases',
-    'A plugin that makes working with Cypress aliases much simpler'
+    'A plugin that makes working with Cypress aliases much simpler',
   ],
-  [
-    'cypress-soft-assertions',
-    'A plugin that adds Cypress soft assertions'
-  ],
-  [
-    'cypress-time-marks',
-    'Custom Cypress commands to measure elapsed time'
-  ],
-  [
-    'cypress-map',
-    'Cypress query commands for v12+'
-  ],
+  ['cypress-soft-assertions', 'A plugin that adds Cypress soft assertions'],
+  ['cypress-time-marks', 'Custom Cypress commands to measure elapsed time'],
+  ['cypress-map', 'Cypress query commands for v12+'],
   [
     'cypress-split',
-    'Split Cypress specs across parallel CI machines for speed'
+    'Split Cypress specs across parallel CI machines for speed',
   ],
   [
     'cypress-on-fix',
-    'Fixes multiple Cypress plugins subscribing to "on" events'
+    'Fixes multiple Cypress plugins subscribing to "on" events',
   ],
   [
     'get-branch-name-by-pr',
-    'A Github Action that gets the branch name based on a pull request.'
+    'A Github Action that gets the branch name based on a pull request.',
   ],
-  [
-    'lhci-gha',
-    'Lighthouse CI results reporting GitHub Action'
-  ],
-  [
-    'cypress-await',
-    'Cypress async await magic 🪄'
-  ],
+  ['lhci-gha', 'Lighthouse CI results reporting GitHub Action'],
+  ['cypress-await', 'Cypress async await magic 🪄'],
   [
     'cypress-pagination-challenge',
-    'Can you implement a Cypress paginated table test?'
+    'Can you implement a Cypress paginated table test?',
   ],
   [
     'changed-test-ids',
-    'Select tests to run based on source file changes and test ids'
+    'Select tests to run based on source file changes and test ids',
   ],
   [
     'trigger-gh-workflow',
-    'Reusable GH action to trigger a GitHub workflow via dispatch event'
+    'Reusable GH action to trigger a GitHub workflow via dispatch event',
   ],
   [
     'use-cypress-for-api-testing',
-    'Example using Cypress test runner to run API tests'
+    'Example using Cypress test runner to run API tests',
   ],
   [
     'cypress-toy-visual-testing',
-    'A simple local visual testing for Cypress users'
+    'A simple local visual testing for Cypress users',
   ],
-  ['cypress-skip-this-test', 'Skips the current test if it depends on the previous failed test'],
+  [
+    'cypress-skip-this-test',
+    'Skips the current test if it depends on the previous failed test',
+  ],
+  ['cypress-magic-backend', 'It is like a real backend but magically faster'],
+  [
+    'cypress-visited-urls',
+    'A plugin to collect all visited urls across all specs',
+  ],
 ]
 
-module.exports = {projects}
+module.exports = { projects }
