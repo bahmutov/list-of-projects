@@ -1096,6 +1096,10 @@ inside ServiceWorker.`,
     'cypress-visited-urls',
     'A plugin to collect all visited urls across all specs',
   ],
+  [
+    'https://github.com/bahmutov/cypress-rest-easy',
+    'Quickly creates REST mocks for your Cypress tests',
+  ],
 ]
 
 module.exports = { projects }
